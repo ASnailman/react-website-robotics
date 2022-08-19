@@ -7,9 +7,10 @@ const STYLES = [
   "btn--outline",
   "btn--about",
   "btn--teamtrailer",
+  "btn--seasons",
 ];
 
-const SIZES = ["button--medium", "btn--large"];
+const SIZES = ["button--medium", "btn--large", "btn--seasonsPage"];
 
 export const Button = ({
   children,
@@ -17,6 +18,7 @@ export const Button = ({
   onClick,
   buttonStyle,
   buttonSize,
+  link,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -25,14 +27,17 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to="/about" className="btn-mobile">
+    // <Link to="/about" className="btn-mobile">
+    <div>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
+        to={link}
       >
         {children}
       </button>
-    </Link>
+    </div>
+    // </Link>
   );
 };

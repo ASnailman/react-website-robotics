@@ -1,0 +1,483 @@
+:root {
+  --main-radius: 5px;
+  --main-padding: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Links {
+  color: white;
+}
+
+.container {
+  display: grid;
+  height: 220vh;
+  justify-content: center;
+  background: rgb(239, 244, 255);
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "content4"
+    "content3";
+  grid-gap: 0.2rem;
+  font-weight: 800;
+  /* text-transform: uppercase; */
+  font-size: 25px;
+  text-align: center;
+}
+
+.subContentLeft {
+  /* background-color: rgba(255, 255, 255, 0.116); */
+  /* border-radius: 5px; */
+  height: 20vh;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  /* box-shadow: 2px 2px 5px black; */
+  display: flex;
+  justify-content: center;
+}
+
+.subContentRight {
+  background-color: rgba(126, 126, 126, 0.103);
+  border-radius: 5px;
+  height: 10vh;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(87, 87, 87, 0.438);
+}
+
+.btn--seasons {
+  color: #fff;
+  padding: 18px;
+  transition: all 0.3s ease-out;
+  width: 85%;
+  font-size: 22px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.582);
+}
+
+.btn--seasons:hover {
+  filter: brightness(1.4);
+}
+
+#content4 {
+  background: linear-gradient(
+    320deg,
+    rgb(208, 126, 255) 10%,
+    rgb(33, 40, 54) 0%
+  );
+  color: rgb(255, 255, 255);
+  grid-area: content4;
+
+  /* border-radius: var(--main-radius); */
+  padding-top: var(--main-padding);
+  box-shadow: 1px 0px 20px rgb(13, 13, 26);
+  width: 60%;
+  justify-self: center;
+}
+
+#FF {
+  color: rgb(135, 46, 194);
+  font-size: 50px;
+  background-color: white;
+  background: linear-gradient(70deg, rgb(198, 148, 255), rgb(255, 255, 255));
+  margin-top: 15px;
+  box-shadow: 0px 2px 4px rgb(149, 84, 235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FFLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.FFRobot {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(199, 114, 255, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+/* #freightRobot {
+  color: white;
+}
+
+#freightTeam {
+  color: white;
+}
+
+#freightAward {
+  color: white;
+}
+
+#freightOutreach {
+  color: #ffffff;
+} */
+
+.FFTeam {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(199, 114, 255, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.FFAwards {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(199, 114, 255, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.FFOutreach {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(199, 114, 255, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.freight-container {
+  display: grid;
+  grid-template-columns: 0.2fr 0.5fr;
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#content3 {
+  background: linear-gradient(
+    -320deg,
+    rgb(105, 255, 180) 10%,
+    rgb(33, 40, 54) 0%
+  );
+  color: rgba(255, 255, 255, 0.747);
+  grid-area: content3;
+  /* border-radius: var(--main-radius); */
+  padding-top: var(--main-padding);
+  box-shadow: 1px 0px 20px rgb(13, 13, 26);
+  width: 60%;
+  justify-self: center;
+}
+
+#UG {
+  color: rgba(38, 156, 111, 0.747);
+  font-size: 50px;
+  background-color: white;
+  background: linear-gradient(70deg, rgb(148, 255, 193), rgb(255, 255, 255));
+  margin-top: 15px;
+  box-shadow: 0px 2px 4px rgb(85, 245, 157);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UGLogo {
+  width: 150px;
+  height: 100px;
+}
+
+.UGRobot {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(114, 255, 220, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.UGTeam {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(114, 255, 220, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.UGAwards {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(114, 255, 220, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.UGOutreach {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(114, 255, 220, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.ultimate-container {
+  display: grid;
+  grid-template-columns: 0.2fr 0.5fr;
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #content1 {
+  background: linear-gradient(
+    -45deg,
+    rgb(255, 191, 95) 50%,
+    rgb(33, 40, 54) 0%
+  );
+  color: rgb(194, 117, 46);
+  grid-area: content1;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  margin: 100px;
+  box-shadow: 1px 0px 20px rgb(13, 13, 26);
+  width: 60%;
+  justify-self: center;
+}
+
+#RR {
+  color: rgb(194, 117, 46);
+  font-size: 50px;
+  background-color: white;
+  background: linear-gradient(70deg, rgb(255, 209, 148), rgb(255, 255, 255));
+  margin-top: 15px;
+  box-shadow: 0px 2px 4px rgb(255, 164, 104);
+}
+
+.rover-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#content2 {
+  background: linear-gradient(
+    -45deg,
+    rgb(129, 205, 255) 50%,
+    rgb(33, 40, 54) 0%
+  );
+  color: rgb(46, 122, 194);
+  grid-area: content2;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  margin: 100px;
+  box-shadow: 1px 0px 20px rgb(13, 13, 26);
+  width: 60%;
+  justify-self: center;
+}
+
+#SKY {
+  color: rgb(46, 122, 194);
+  font-size: 50px;
+  background-color: white;
+  background: linear-gradient(70deg, rgb(148, 216, 255), rgb(255, 255, 255));
+  margin-top: 15px;
+  box-shadow: 0px 2px 4px rgb(91, 156, 241);
+}
+
+.skystone-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  margin: 10px;
+} */
+
+@media only screen and (max-width: 770px) {
+  #RR,
+  #SKY,
+  #UG,
+  #FF {
+    font-size: 30px;
+  }
+
+  .btn--seasons {
+    color: #fff;
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    width: 85%;
+    font-size: 12px;
+  }
+
+  .container {
+    font-size: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "content4"
+      "content3";
+    height: 160vh;
+  }
+
+  #content1,
+  #content2,
+  #content3,
+  #content4 {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .subContentLeft {
+    /* background-color: rgba(255, 255, 255, 0.11); */
+    border-radius: 5px;
+    height: 10vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    /* box-shadow: 2px 2px 5px black; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .subContentRight {
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 5px;
+    height: 5vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .freight-container {
+    grid-template-columns: 0.4fr 0.5fr;
+  }
+
+  .ultimate-container {
+    grid-template-columns: 0.4fr 0.5fr;
+  }
+
+  .FFRobot {
+    width: 90px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .FFTeam {
+    width: 130px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .FFAwards {
+    width: 90px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .FFOutreach {
+    width: 120px;
+    height: 75px;
+    border-radius: 10px;
+  }
+
+  .UGRobot {
+    width: 90px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .UGTeam {
+    width: 90px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .UGAwards {
+    width: 90px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .UGOutreach {
+    width: 120px;
+    height: 75px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 770px) and (orientation: landscape) {
+  .subContentLeft {
+    height: 20vh;
+  }
+
+  .subContentRight {
+    height: 10vh;
+  }
+
+  .container {
+    height: 330vh;
+  }
+
+  .ultimate-container {
+    grid-template-columns: 0.3fr 0.5fr;
+  }
+
+  .freight-container {
+    grid-template-columns: 0.3fr 0.5fr;
+  }
+
+  .FFRobot {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+  .FFTeam {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+  .FFAwards {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+  .FFOutreach {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+
+  .UGRobot {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+  .UGTeam {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+  .UGAwards {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+  .UGOutreach {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+}

@@ -5,24 +5,25 @@ import "./Cards.css";
 function Cards() {
   return (
     <div className="cards">
-      <h1>LEARN ABOUT OUR TEAM!</h1>
+      <h1 className="learn">LEARN ABOUT OUR TEAM!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src={require("../images/img-3.jpg")}
+              src={require("../images/past.png")}
               text="Take a Look at Our Past Seasons"
               label="Rover Ruckus - Freight Frenzy"
               path="/seasons"
             />
             <CardItem
-              src={require("../images/img-2.jpg")}
+              src={require("../images/team2.png")}
               text="Meet Our Team Members"
               label="History of Team Members"
               path="/teammembers"
+              id="teamMembers"
             />
             <CardItem
-              src={require("../images/img-2.jpg")}
+              src={require("../images/outreach.png")}
               text="Our Outreach"
               label="2018 - 2022"
               path="/outreach"
@@ -30,22 +31,24 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src={require("../images/img-1.jpg")}
-              text="PLACEMENT TEXT"
-              label="PLACEMENT TEXT"
+              src={require("../images/about.png")}
+              text="Miscellaneous"
+              label="Runs/Activities/Clips/Extras"
               path="/seasons"
+              id="miscellaneous"
             />
             <CardItem
               src={require("../images/img-3.jpg")}
-              text="PLACEMENT TEXT"
-              label="PLACEMENT TEXT"
-              path="/teammembers"
+              text="About Us"
+              label="Learn About Our Team!"
+              path="/about"
             />
             <CardItem
-              src={require("../images/survey.jpg")}
+              src={require("../images/survey.png")}
               text="Website Survey"
               label="Survey"
               path="/surveyform"
+              id="surveyForm"
             />
           </ul>
         </div>

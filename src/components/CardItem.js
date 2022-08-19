@@ -11,6 +11,7 @@ function CardItem(props) {
               src={props.src}
               alt="SeasonsImage"
               className="cards__item__img"
+              id={props.id}
             />
           </figure>
           <div className="cards__item__info">

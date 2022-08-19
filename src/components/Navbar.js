@@ -18,6 +18,17 @@ function Navbar() {
     }
   };
 
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-62px";
+    }
+    prevScrollpos = currentScrollPos;
+  };
+
   useEffect(() => {
     showButton();
   }, []);
@@ -26,7 +37,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar" id="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             HOW
@@ -53,7 +64,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Seasons
+                Past Seasons
               </Link>
             </li>
 

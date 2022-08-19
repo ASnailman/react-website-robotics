@@ -34,6 +34,7 @@ export default class TeamSlider extends Component {
       infinite: true,
       centerPadding: "60px",
       slidesToShow: 2,
+      fade: true,
       swipeToSlide: true,
       centerMode: true,
       nextArrow: <NextArrow />,
@@ -64,119 +65,450 @@ export default class TeamSlider extends Component {
         </div>
 
         <h2 className="titleFF">Freight Frenzy Team Members</h2>
+
         <Slider {...settings}>
           <div className="box-container">
-            <h3>Harris Khoo</h3>
+            <div className="picture-container">
+              <h3>Harris</h3>
+              <img
+                src={require("../images/TeamMembers/harris.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">Software/Control Lead</p>
+            </div>
           </div>
-          <div>
-            <h3>Adam Maoued</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Adam</h3>
+              <img
+                src={require("../images/TeamMembers/adam.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">Electrical Lead</p>
+            </div>
           </div>
-          <div>
-            <h3>Mahee Karim</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Mahee</h3>
+              <img
+                src={require("../images/TeamMembers/mahee.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">Mechanical Lead</p>
+            </div>
           </div>
-          <div>
-            <h3>Mohammed Afzal Khan</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3 className="afzal">Afzal</h3>
+              <img
+                src={require("../images/TeamMembers/afzal.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">CAD Desginer/Mechanical Team Member</p>
+            </div>
           </div>
-          <div>
-            <h3>Nubaid Rahman</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Nubaid</h3>
+              <img
+                src={require("../images/TeamMembers/nubaid.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">
+                Software Team Member/Electrical Parts Owner
+              </p>
+            </div>
           </div>
-          <div>
-            <h3>Manar</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Manar</h3>
+              <img
+                src={require("../images/TeamMembers/manar.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">
+                Media + Outreach Lead/Mechanical Team Member
+              </p>
+            </div>
           </div>
-          <div>
-            <h3>Wajeeh</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Wajeeh</h3>
+              <img
+                src={require("../images/TeamMembers/wajeeh.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">
+                Software Team Member/Mechanical Parts Owner
+              </p>
+            </div>
           </div>
         </Slider>
+
+        <hr />
 
         <h2 className="title">Ultimate Goal Team Members</h2>
         <Slider {...settings}>
-          <div>
-            <h3>Omar Daoued</h3>
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Omar</h3>
+              <img
+                src={require("../images/TeamMembers/omar.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">Mechanical Lead</p>
+            </div>
           </div>
-          <div>
-            <h3>Ibraheem Maoued</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Ibraheem</h3>
+              <img
+                src={require("../images/TeamMembers/ibraheem.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">
+                Software + Control Lead/Electrical Lead
+              </p>
+            </div>
           </div>
-          <div>
-            <h3>Sana</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Sana</h3>
+              <img
+                src={require("../images/TeamMembers/sana.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">Media/Outreach Lead</p>
+            </div>
           </div>
-          <div>
-            <h3>Adel Rahmoun</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Adel</h3>
+              <img
+                src={require("../images/TeamMembers/adel.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">ENB Lead/Mechanical Team Member</p>
+            </div>
           </div>
-          <div>
-            <h3>Harris Khoo</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Harris</h3>
+              <img
+                src={require("../images/TeamMembers/harris.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">Software Team Member</p>
+            </div>
           </div>
-          <div>
-            <h3>Adam Maoued</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Adam</h3>
+              <img
+                src={require("../images/TeamMembers/adam.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">
+                Software Team Member/Electrical Team Member
+              </p>
+            </div>
           </div>
-          <div>
-            <h3>Mahee Karim</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Mahee</h3>
+              <img
+                src={require("../images/TeamMembers/mahee.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">
+                Mechanical Team Lead/Mechanical Parts Owner
+              </p>
+            </div>
           </div>
-          <div>
-            <h3>Malak Daoued</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Malak</h3>
+              <img
+                src={require("../images/TeamMembers/malak.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">
+                Mechanical Team Member/Media Team Member
+              </p>
+            </div>
           </div>
-          <div>
-            <h3>Nadine Gharsali</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Nadine</h3>
+              <img
+                src={require("../images/TeamMembers/nadine.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">
+                Mechanical Team Member/Outreach Team Member
+              </p>
+            </div>
           </div>
         </Slider>
+
+        {/* <hr />
 
         <h2 className="title">Skystone Team Members</h2>
         <Slider {...settings}>
-          <div>
-            <h3>Omar Daoued</h3>
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Omar</h3>
+              <img
+                src={require("../images/TeamMembers/omar.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Ibraheem Maoued</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Ibraheem</h3>
+              <img
+                src={require("../images/TeamMembers/ibraheem.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Sana</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Sana</h3>
+              <img
+                src={require("../images/TeamMembers/sana.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Adel Rahmoun</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Adel</h3>
+              <img
+                src={require("../images/TeamMembers/adel.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Harris Khoo</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Harris</h3>
+              <img
+                src={require("../images/TeamMembers/harris.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Adam Maoued</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Adam</h3>
+              <img
+                src={require("../images/TeamMembers/adam.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Mahee Karim</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Mahee</h3>
+              <img
+                src={require("../images/TeamMembers/mahee.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Malak Daoued</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Malak</h3>
+              <img
+                src={require("../images/TeamMembers/malak.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Nadine Gharsali</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Nadine</h3>
+              <img
+                src={require("../images/TeamMembers/nadine.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Mahdi Rezgui</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Mahdi</h3>
+              <img
+                src={require("../images/TeamMembers/mahdi.JPG")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Yusuf Farooqi</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Yusuf</h3>
+              <img
+                src={require("../images/TeamMembers/wajeeh.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-        </Slider>
+        </Slider> */}
+
+        {/* <hr />
 
         <h2 className="title">Rover Ruckus Team Members</h2>
         <Slider {...settings}>
-          <div>
-            <h3>Omar Daoued</h3>
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Omar</h3>
+              <img
+                src={require("../images/TeamMembers/omar.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Ibraheem Maoued</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Ibraheem</h3>
+              <img
+                src={require("../images/TeamMembers/ibraheem.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Sana</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Sana</h3>
+              <img
+                src={require("../images/TeamMembers/sana.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Adel Rahmoun</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Adel</h3>
+              <img
+                src={require("../images/TeamMembers/adel.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Yasseen Mohammed</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Yasseen</h3>
+              <img
+                src={require("../images/TeamMembers/yaseen.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Munzir</h3>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Munzir</h3>
+              <img
+                src={require("../images/TeamMembers/munzir.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
           </div>
-        </Slider>
+        </Slider> */}
       </div>
     );
   }

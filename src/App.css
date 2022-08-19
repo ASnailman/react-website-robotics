@@ -2,50 +2,52 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .home,
 .seasons,
 .teammembers,
-.about, 
+.about,
 .outreach {
   display: flex;
-  height: 90vh;
+  /* height: 102vh; */
+  height: 52vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
 
+/* background-image: url('/src/images/img-1.jpg'); */
+
 .seasons {
-  /* background-image: url('/src/images/img-2.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  background-color: rgb(30, 31, 41);
   font-size: 100px;
 }
 
 .teammembers {
-  /* background-image: url('/src/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  background-color: rgb(30, 31, 41);
 }
 
 .about {
-  /* background-image: url('/src/images/img-8.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  background-color: rgb(30, 31, 41);
 }
 
 .outreach {
-  /* background-image: url('/src/images/img-6.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,3 +55,20 @@
   font-size: 100px;
 }
 
+@media only screen and (max-width: 900px) {
+  .seasons {
+    font-size: 70px;
+  }
+
+  .teammembers {
+    font-size: 70px;
+  }
+
+  .about {
+    font-size: 70px;
+  }
+
+  .outreach {
+    font-size: 70px;
+  }
+}

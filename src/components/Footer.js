@@ -2,6 +2,8 @@ import React from "react";
 // import { Button } from "./Button";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import { SiFirebase } from "react-icons/si";
+import { SiThreedotjs } from "react-icons/si";
 
 function Footer() {
   return (
@@ -28,27 +30,27 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2 className="about-us">About Us</h2>
-            <Link to="/">PLACEMENT TEXT</Link>
-            <Link to="/">PLACEMENT TEXT</Link>
-            <Link to="/">PLACEMENT TEXT</Link>
-            <Link to="/">PLACEMENT TEXT</Link>
+            <Link to="/about">About Page</Link>
+            <Link to="/">Team News</Link>
+            <Link to="/">Events/Outreach</Link>
+            <Link to="/">Upcoming</Link>
           </div>
           <div className="footer-link-items">
             <h2 className="contact-us">Contact Us</h2>
             <Link to="/">Email</Link>
             <Link to="/surveyform">Survey</Link>
-            <Link to="/">PLACEMENT TEXT</Link>
-            <Link to="/">PLACEMENT TEXT</Link>
+            {/* <Link to="/">PLACEMENT TEXT</Link>
+            <Link to="/">PLACEMENT TEXT</Link> */}
           </div>
         </div>
 
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2 className="miscellaneous">Miscellaneous</h2>
+            <Link to="/">How-To</Link>
+            <Link to="/">FTC News</Link>
+            <Link to="/">Tools</Link>
             <Link to="/">Runs</Link>
-            <Link to="/">Activities</Link>
-            <Link to="/">Clips</Link>
-            <Link to="/">Extra</Link>
           </div>
           <div className="footer-link-items">
             <h2 className="social-media">Social Media</h2>
@@ -99,12 +101,14 @@ function Footer() {
           <div className="copyright">
             <p className="top">
               <small className="website-rights-copyright">Copyright</small>
-              <i className="fa-solid fa-copyright"></i>
+              <i className="fa-solid fa-copyright" id="copyright"></i>
               <small className="website-rights-copyright">2022 HOW 14469</small>
             </p>
             <p className="bottom">
               <small className="website-rights-created">Created with</small>
               <i className="fa-brands fa-react"></i>
+              <SiFirebase className="si-firebase" />
+              <SiThreedotjs className="si-threejs" />
               <small className="website-rights-created">by Harris Khoo</small>
             </p>
           </div>
