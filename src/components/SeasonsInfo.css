@@ -15,7 +15,8 @@ html {
   display: grid;
   height: 220vh;
   justify-content: center;
-  background: rgb(239, 244, 255);
+  /* background: rgb(239, 244, 255); */
+  background-color: rgb(26, 27, 36);
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:

@@ -1,0 +1,121 @@
+:root {
+  --main-radius: 5px;
+  --main-padding: 5px;
+}
+
+.resLinks {
+  font-family: "Nexa", sans-serif;
+  color: white;
+}
+
+.resContainer {
+  display: flex;
+  height: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(26, 27, 36);
+}
+
+.resWrapper {
+  display: grid;
+  width: 100%;
+  height: 50vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "How-To UsefulLinks"
+    "Tools Clips";
+  grid-gap: 0.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+/* .hello {
+  background: center / cover url("https://wallpaperaccess.com/full/171177.jpg");
+  background: linear-gradient(to right, #1613bd 0%, #d915b5 50%, #ea7ea2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+} */
+
+#How-To {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nexa", sans-serif;
+  background: linear-gradient(180deg, #ff957b 0%, #f1804b 50%, #ff957b 100%);
+  grid-area: How-To;
+  border-radius: var(--main-radius);
+}
+
+#UsefulLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nexa", sans-serif;
+  background: linear-gradient(180deg, #eacd7e 0%, #dfc73d 50%, #eacd7e 100%);
+  grid-area: UsefulLinks;
+  border-radius: var(--main-radius);
+}
+
+#Tools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nexa", sans-serif;
+  background: linear-gradient(180deg, #7ec8ea 0%, #4bcaf1 50%, #7ec8ea 100%);
+  grid-area: Tools;
+  border-radius: var(--main-radius);
+}
+
+#Clips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nexa", sans-serif;
+  background: linear-gradient(180deg, #7b9eff 0%, #8793ff 50%, #7b9eff 100%);
+  grid-area: Clips;
+  border-radius: var(--main-radius);
+}
+
+#How-To:hover,
+#UsefulLinks:hover,
+#Tools:hover,
+#Clips:hover {
+  transform: scale(1.01);
+  transition: 400ms;
+  box-shadow: 0px 3px 25px rgb(15, 15, 15);
+}
+
+@media only screen and (max-width: 770px) {
+  .resWrapper {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "How-To"
+      "UsefulLinks"
+      "Tools"
+      "Clips";
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 770px) and (orientation: landscape) {
+  .resWrapper {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "How-To UsefulLinks"
+      "Tools Clips";
+  }
+}

@@ -70,15 +70,15 @@ function Navbar() {
 
             <li className="nav-item">
               <Link
-                to="/teammembers"
+                to="/currentseason"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Team Members
+                Current Season
               </Link>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 to="/outreach"
                 className="nav-links"
@@ -86,7 +86,7 @@ function Navbar() {
               >
                 Outreach
               </Link>
-            </li>
+            </li> */}
 
             <li>
               <Link

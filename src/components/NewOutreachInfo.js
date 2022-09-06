@@ -1,9 +1,9 @@
 import React from "react";
 import "./NewOutreachInfo.css";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 
-function OutreachInfo() {
+function NewOutreachInfo() {
   return (
     <div class="NewOutreachContainer">
       <div id="NEWcontent">
@@ -20,7 +20,11 @@ function OutreachInfo() {
             />
           </div>
           <div className="NEWarticle">
-            <h2 className="NEWarticleTitle">4G Stem Camp</h2>
+            <h2 className="NEWarticleTitle">
+              <Link to="/StemCamp" className="newOutreachLinks">
+                4G Stem Camp
+              </Link>
+            </h2>
             <p className="NEWarticleDescription">
               Our teammate, Manar, teaches middle school girls
               engineering-related topics at Caterpillar
@@ -37,7 +41,9 @@ function OutreachInfo() {
           </div>
           <div className="NEWarticle">
             <h2 className="NEWarticleTitle">
-              2022 FTC Workshop & Ignite Peoria Event
+              <Link to="/IgniteAndWorkshop" className="newOutreachLinks">
+                2022 FTC Workshop & Ignite Peoria Event
+              </Link>
             </h2>
             <p className="NEWarticleDescription">
               Hosted an FTC workshop at the Peoria Civic Center and demonstrated
@@ -51,4 +57,4 @@ function OutreachInfo() {
   );
 }
 
-export default OutreachInfo;
+export default NewOutreachInfo;

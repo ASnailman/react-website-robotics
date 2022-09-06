@@ -1,0 +1,109 @@
+.articleItems {
+  display: grid;
+  /* grid-template-columns: 1fr 2.5fr 1fr; */
+  grid-template-columns: 1fr;
+}
+
+.articleWrapper {
+  background-color: rgb(247, 247, 247);
+  height: 120vh;
+  width: 60%;
+  justify-self: center;
+}
+
+.leftspace {
+  /* background-color: rgb(243, 243, 243); */
+  background-color: rgb(247, 247, 247);
+}
+
+.rightspace {
+  /* background-color: rgb(243, 243, 243); */
+  background-color: rgb(247, 247, 247);
+}
+
+.articlePostTitle {
+  font-size: 50px;
+  margin: 60px 40px 0px 50px;
+  font-family: "Nexa", sans-serif;
+  font-weight: bolder;
+
+  text-align: left;
+}
+
+.articlePostSubHeader {
+  color: grey;
+  opacity: 80%;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  font-family: "Nexa", sans-serif;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.articleCredits {
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.articleInfo {
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+
+#name {
+  margin-left: 50px;
+  font-family: "Nexa", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+#date {
+  margin-left: 10px;
+  font-family: "Nexa", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+#separator {
+  font-size: 22px;
+  margin-left: 10px;
+  font-family: "Nexa", sans-serif;
+  font-weight: 800;
+}
+
+.articlePostImage {
+  margin-left: 50px;
+}
+
+.articlePostDescription {
+  text-align: left;
+  line-height: 2;
+  font-size: 18px;
+  font-family: "Nexa", sans-serif;
+  margin: 30px 50px 0px 50px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 770px) {
+  .articleWrapper {
+    height: 260vh;
+    width: 100%;
+  }
+
+  .articlePostTitle {
+    /* font-size: 40px; */
+  }
+
+  .articlePostDescription {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 770px) and (orientation: landscape) {
+  .articleWrapper {
+    height: 300vh;
+  }
+}

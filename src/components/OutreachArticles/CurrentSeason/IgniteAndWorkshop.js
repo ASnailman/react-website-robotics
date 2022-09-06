@@ -1,8 +1,8 @@
 import React from "react";
-import "../../article.css";
-import Footer from "../../../Footer.js";
+import "../article.css";
+import Footer from "../../Footer.js";
 
-function MiniScrimmage() {
+function IgniteAndWorkshop() {
   return (
     <div className="articlePost">
       <div className="articleItems">
@@ -62,4 +62,4 @@ function MiniScrimmage() {
   );
 }
 
-export default MiniScrimmage;
+export default IgniteAndWorkshop;

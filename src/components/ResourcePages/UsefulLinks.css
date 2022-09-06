@@ -1,0 +1,153 @@
+.usefulItems {
+  display: grid;
+  /* grid-template-columns: 1fr 2.5fr 1fr; */
+  grid-template-columns: 1fr;
+}
+
+.usefulWrapper {
+  background-color: rgb(247, 247, 247);
+  height: 100vh;
+  width: 60%;
+  justify-self: center;
+}
+
+.usefulTitle {
+  font-size: 70px;
+  margin: 60px 40px 0px 50px;
+  /* font-family: "Montserrat"; */
+  font-family: "Typold", sans-serif;
+  font-family: "Typold Condensed", sans-serif;
+  font-family: "Typold Extended", sans-serif;
+  text-align: left;
+  font-weight: 300;
+}
+
+.usefulSubHeader {
+  color: grey;
+  opacity: 80%;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  font-family: "Nexa", sans-serif;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.usefulSection {
+  border-color: rgb(255, 162, 162);
+  border-width: 2px;
+  border-style: dashed;
+  border-radius: 5px;
+  padding: 25px;
+  display: block;
+  justify-self: center;
+  /* width: 40%; */
+  text-align: center;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.usefulFirst,
+.usefulHow {
+  font-family: "Nexa", sans-serif;
+  font-weight: 600;
+}
+
+/* .usefulLinkWrapper {
+  text-align: center;
+} */
+
+.usefulLink {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: black;
+  border-bottom: 1px solid rgb(122, 122, 122);
+  padding-bottom: 3px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  font-weight: 400;
+}
+
+.usefulLink:hover {
+  color: grey;
+  transition-duration: 250ms;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+.articlePostDescription {
+  text-align: left;
+  line-height: 2;
+  font-size: 18px;
+  font-family: "Nexa", sans-serif;
+  margin: 30px 50px 0px 50px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 770px) {
+  .usefulWrapper {
+    height: 110vh;
+    width: 100%;
+  }
+
+  .usefulTitle {
+    font-size: 36px;
+  }
+
+  .usefulSubHeader {
+    font-size: 18px;
+  }
+
+  .usefulHow,
+  .usefulFirst {
+    font-size: 22px;
+  }
+
+  .usefulLink {
+    font-size: 17px;
+  }
+
+  .articlePostDescription {
+    font-size: 15px;
+  }
+
+  .usefulSection {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 770px) and (orientation: landscape) {
+  .usefulWrapper {
+    height: 160vh;
+  }
+
+  .usefulHow,
+  .usefulFirst {
+    font-size: 17px;
+  }
+
+  .usefulLink {
+    font-size: 12px;
+  }
+
+  .usefulSection {
+    border-color: rgb(255, 162, 162);
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 5px;
+    padding: 25px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+  }
+
+  .usefulFirstWrapper {
+    margin-right: 25px;
+  }
+
+  .usefulHowWrapper {
+    margin-left: 25px;
+  }
+}

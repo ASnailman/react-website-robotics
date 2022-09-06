@@ -1,7 +1,7 @@
 import React from "react";
 import "./OutreachInfo.css";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 import freightFrenzyLogo3 from "../images/freightFrenzyLogo3.png";
 import ultimateGoalLogo from "../images/ultimateGoalLogo.png";
 
@@ -22,7 +22,11 @@ function OutreachInfo() {
             />
           </div>
           <div className="article">
-            <h2 className="articleTitle">Riverfront Museum Engineering Day</h2>
+            <h2 className="articleTitle">
+              <Link to="/FFEngineeringDay" className="FFoutreachLinks">
+                Riverfront Museum Engineering Day
+              </Link>
+            </h2>
             <p className="articleDescription">
               Co-hosted Engineering Day at Peoria Riverfront Museum with
               Caterpillar
@@ -58,7 +62,11 @@ function OutreachInfo() {
             />
           </div>
           <div className="article">
-            <h2 className="articleTitle">Robot Demonstration at the mall</h2>
+            <h2 className="articleTitle">
+              <Link to="/RobotMall" className="FFoutreachLinks">
+                Robot Demonstration at the mall
+              </Link>
+            </h2>
             <p className="articleDescription">
               Exhibited previous season's robot / explained capabilities of FTC
               robots to attendees / entertained audience
@@ -75,7 +83,9 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitle">
-              Hosting a Practice With Another Team
+              <Link to="/TeamPractice" className="FFoutreachLinks">
+                Hosting a Practice With Another Team
+              </Link>
             </h2>
             <p className="articleDescription">
               Held practice and collaboration meeting with TrailBlazers 16244 in
@@ -94,7 +104,9 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitle">
-              Project lead the way-Dunlap & STEM class-DU Highschool
+              <Link to="/ProjectLeadWay" className="FFoutreachLinks">
+                Project lead the way-Dunlap & STEM class-DU Highschool
+              </Link>
             </h2>
             <p className="articleDescription">
               Team members at both Dunlap / Daarul Uloom High Schools
@@ -113,7 +125,9 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitle">
-              Hosting a local FTC Mini-Scrimmage before State Finals
+              <Link to="/MiniScrimmage" className="FFoutreachLinks">
+                Hosting a local FTC Mini-Scrimmage before State Finals
+              </Link>
             </h2>
             <p className="articleDescription">
               Hosted mini-scrimmage for teams advancing to state championship in
@@ -131,7 +145,9 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitle">
-              Providing Fog-Free Safety Glasses to Local Teams
+              <Link to="/FogFreeGoggles" className="FFoutreachLinks">
+                Providing Fog-Free Safety Glasses to Local Teams
+              </Link>
             </h2>
             <p className="articleDescription">
               Masks caused goggles to fog, so we partnered with Caterpillar to
@@ -149,7 +165,9 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitle">
-              FLL State Championship Volunteering
+              <Link to="/FLLState" className="FFoutreachLinks">
+                FLL State Championship Volunteering
+              </Link>
             </h2>
             <p className="articleDescription">
               Team Members volunteered at FLL Tesla State Championship in
@@ -175,8 +193,10 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitleUG" id="ronaldTitle">
-              Co-sponsoring a Cook-in for Ronald McDonalds House
-              Patients/Families
+              <Link to="/RonaldHouse" className="UGoutreachLinks">
+                Co-sponsoring a Cook-in for Ronald McDonalds House
+                Patients/Families
+              </Link>
             </h2>
             <p className="articleDescription">
               Collaborated with an FLL team to cook at Peoria Ronald McDonald’s
@@ -194,7 +214,9 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitleUG">
-              Robotic Coffee House and Fundraiser
+              <Link to="/CoffeeHouse" className="UGoutreachLinks">
+                Robotic Coffee House and Fundraiser
+              </Link>
             </h2>
             <p className="articleDescription">
               Hosted a coffee house to fundraise while promoting FIRST and
@@ -211,7 +233,11 @@ function OutreachInfo() {
             />
           </div>
           <div className="article">
-            <h2 className="articleTitleUG">Virtual 2020 FTC Workshop </h2>
+            <h2 className="articleTitleUG">
+              <Link to="/UGWorkshop" className="UGoutreachLinks">
+                Virtual 2020 FTC Workshop
+              </Link>
+            </h2>
             <p className="articleDescription">
               Hosted virtual training workshop with Manual Academy RoboRams to
               teach programming, hardware, etc

@@ -70,7 +70,8 @@
 }
 
 .btn--about:hover {
-  background-color: silver;
+  background-color: rgb(102, 0, 0);
+  color: #fff;
 }
 
 .btn--medium:hover,

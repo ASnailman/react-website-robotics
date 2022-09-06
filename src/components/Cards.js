@@ -24,7 +24,7 @@ function Cards() {
             />
             <CardItem
               src={require("../images/outreach.png")}
-              text="Our Outreach"
+              text="Our Current Outreach"
               label="2018 - 2022"
               path="/outreach"
             />
@@ -32,13 +32,13 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={require("../images/about.png")}
-              text="Miscellaneous"
-              label="Runs/Activities/Clips/Extras"
-              path="/seasons"
-              id="miscellaneous"
+              text="Resources"
+              label="How-Tos/Links/Tools/Docs"
+              path="/Resources"
+              id="resources"
             />
             <CardItem
-              src={require("../images/img-3.jpg")}
+              src={require("../images/aboutUs.png")}
               text="About Us"
               label="Learn About Our Team!"
               path="/about"

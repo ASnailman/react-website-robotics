@@ -8,7 +8,8 @@
   /* height: 320vh; */
   height: 51vh;
   justify-content: center;
-  background: rgb(239, 244, 255);
+  /* background: rgb(239, 244, 255); */
+  background-color: rgb(26, 27, 36);
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
@@ -102,6 +103,15 @@
 .NEWarticleTitle:hover {
   text-decoration: underline;
   color: rgb(154, 176, 197);
+}
+
+.newOutreachLinks {
+  color: white;
+}
+
+.newOutreachLinks:hover {
+  text-decoration: underline;
+  color: rgb(154, 168, 197);
 }
 
 .NEWarticleDescription {

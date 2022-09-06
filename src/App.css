@@ -7,9 +7,11 @@
 
 .home,
 .seasons,
+.currentseason,
 .teammembers,
 .about,
-.outreach {
+.outreach,
+.resources {
   display: flex;
   /* height: 102vh; */
   height: 52vh;
@@ -21,6 +23,15 @@
 /* background-image: url('/src/images/img-1.jpg'); */
 
 .seasons {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-color: rgb(30, 31, 41);
+  font-size: 100px;
+}
+
+.currentseason {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -55,8 +66,20 @@
   font-size: 100px;
 }
 
+.resources {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
 @media only screen and (max-width: 900px) {
   .seasons {
+    font-size: 70px;
+  }
+
+  .currentseason {
     font-size: 70px;
   }
 
@@ -70,5 +93,10 @@
 
   .outreach {
     font-size: 70px;
+    text-align: center;
+  }
+
+  .resources {
+    font-size: 45px;
   }
 }

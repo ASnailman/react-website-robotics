@@ -39,7 +39,8 @@
 }
 
 .carousel {
-  background-color: #151725;
+  /* background-color: #151725; */
+  background-color: rgb(26, 27, 36);
   padding-bottom: 50px;
 }
 

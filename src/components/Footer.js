@@ -30,10 +30,10 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2 className="about-us">About Us</h2>
-            <Link to="/about">About Page</Link>
-            <Link to="/">Team News</Link>
-            <Link to="/">Events/Outreach</Link>
-            <Link to="/">Upcoming</Link>
+            <Link to="/">Engineering Journal</Link>
+            <Link to="/teammembers">Team Members</Link>
+            <Link to="/outreach">Current Outreach</Link>
+            <Link to="/">Upcoming Events</Link>
           </div>
           <div className="footer-link-items">
             <h2 className="contact-us">Contact Us</h2>
@@ -46,11 +46,12 @@ function Footer() {
 
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2 className="miscellaneous">Miscellaneous</h2>
-            <Link to="/">How-To</Link>
-            <Link to="/">FTC News</Link>
-            <Link to="/">Tools</Link>
-            <Link to="/">Runs</Link>
+            <h2 className="resourceFooter">Resources</h2>
+            <Link to="/HowTo">How-To</Link>
+            <Link to="/UsefulLinks">Useful Links</Link>
+            <Link to="/Tools">Tools</Link>
+            {/* <Link to="/Clips">Clips</Link> */}
+            <Link to="/">Specs/Documentation</Link>
           </div>
           <div className="footer-link-items">
             <h2 className="social-media">Social Media</h2>

@@ -48,9 +48,6 @@ function SeasonsInfo() {
               className="FFRobot"
             />
           </div>
-          {/* <div className="subContentRight" id="freightRobot">
-            <Link to="/FFRobot">Robot</Link>
-          </div> */}
           <Button
             className="subContentRight"
             buttonStyle="btn--seasons"
@@ -69,9 +66,6 @@ function SeasonsInfo() {
               className="FFTeam"
             />
           </div>
-          {/* <div className="subContentRight" id="freightTeam">
-            <Link to="/teammembers">Team Members</Link>
-          </div> */}
           <Button
             className="subContentRight"
             buttonStyle="btn--seasons"
@@ -89,9 +83,6 @@ function SeasonsInfo() {
               className="FFAwards"
             />
           </div>
-          {/* <div className="subContentRight" id="freightAwards">
-            <Link to="/Awards">Awards</Link>
-          </div> */}
           <Button
             className="subContentRight"
             buttonStyle="btn--seasons"
@@ -109,9 +100,6 @@ function SeasonsInfo() {
               className="FFOutreach"
             />
           </div>
-          {/* <div className="subContentRight" id="freightOutreach">
-            <Link to="/outreach">Outreach</Link>
-          </div> */}
           <Button
             className="subContentRight"
             buttonStyle="btn--seasons"
@@ -137,9 +125,6 @@ function SeasonsInfo() {
               className="UGRobot"
             />
           </div>
-          {/* <div className="subContentRight" id="ultimateRobot">
-            <Link to="/UGRobot">Robot</Link>
-          </div> */}
           <Button
             className="subContentRight"
             buttonStyle="btn--seasons"
@@ -157,9 +142,6 @@ function SeasonsInfo() {
               className="UGTeam"
             />
           </div>
-          {/* <div className="subContentRight" id="ultimateTeam">
-            <Link to="/teammembers">Team Members</Link>
-          </div> */}
           <Button
             className="subContentRight"
             buttonStyle="btn--seasons"
@@ -177,9 +159,6 @@ function SeasonsInfo() {
               className="UGAwards"
             />
           </div>
-          {/* <div className="subContentRight" id="ultimateAwards">
-            <Link to="/Awards">Awards</Link>
-          </div> */}
           <Button
             className="subContentRight"
             buttonStyle="btn--seasons"
@@ -197,9 +176,6 @@ function SeasonsInfo() {
               className="UGOutreach"
             />
           </div>
-          {/* <div className="subContentRight" id="ultimateOutreach">
-            <Link to="/outreach">Outreach</Link>
-          </div> */}
           <Button
             className="subContentRight"
             buttonStyle="btn--seasons"
