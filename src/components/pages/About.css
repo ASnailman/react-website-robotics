@@ -1,0 +1,107 @@
+.aboutWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-template-rows: 0.1fr 0.9fr; */
+  grid-template-areas:
+    "infoID"
+    "picID";
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+#infoID {
+  grid-area: infoID;
+}
+
+.aboutInfo {
+  /* background-color: white; */
+  color: rgb(255, 192, 97);
+  text-align: center;
+  font-family: "Nexa", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  grid-area: aboutInfo;
+  padding: 20px;
+  border: 4px rgb(255, 169, 57) solid;
+}
+
+#picID {
+  grid-area: picID;
+}
+
+.aboutPics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "aboutFFTeamPic aboutUGPartTeamPic";
+  width: 50%;
+  justify-self: center;
+  margin: 10px;
+}
+
+#aboutFFTeamPic {
+  grid-area: aboutFFTeamPic;
+  border: 4px rgb(255, 169, 57) solid;
+  width: 450px;
+  height: 250px;
+}
+
+#aboutUGPartTeamPic {
+  grid-area: aboutUGPartTeamPic;
+  border: 4px rgb(255, 169, 57) solid;
+  width: 450px;
+  height: 250px;
+}
+
+@media only screen and (max-width: 770px) {
+  .aboutPics {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "aboutFFTeamPic" "aboutUGPartTeamPic";
+    justify-self: center;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .aboutInfo {
+    font-size: 18px;
+  }
+
+  #aboutFFTeamPic {
+    grid-area: aboutFFTeamPic;
+    border: 4px rgb(255, 169, 57) solid;
+    width: 375px;
+    height: 200px;
+  }
+
+  #aboutUGPartTeamPic {
+    grid-area: aboutUGPartTeamPic;
+    border: 4px rgb(255, 169, 57) solid;
+    width: 375px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 770px) and (orientation: landscape) {
+  .aboutPics {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "aboutFFTeamPic aboutUGPartTeamPic";
+    width: 100%;
+    justify-self: center;
+    margin: 10px;
+  }
+  #aboutFFTeamPic {
+    grid-area: aboutFFTeamPic;
+    border: 4px rgb(255, 169, 57) solid;
+    width: 335px;
+    height: 200px;
+  }
+
+  #aboutUGPartTeamPic {
+    grid-area: aboutUGPartTeamPic;
+    border: 4px rgb(255, 169, 57) solid;
+    width: 335px;
+    height: 200px;
+  }
+}

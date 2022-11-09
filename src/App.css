@@ -11,7 +11,8 @@
 .teammembers,
 .about,
 .outreach,
-.resources {
+.resources,
+.awards {
   display: flex;
   /* height: 102vh; */
   height: 52vh;
@@ -74,13 +75,21 @@
   font-size: 100px;
 }
 
+.awards {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
 @media only screen and (max-width: 900px) {
   .seasons {
-    font-size: 70px;
+    font-size: 55px;
   }
 
   .currentseason {
-    font-size: 70px;
+    font-size: 45px;
   }
 
   .teammembers {
@@ -97,6 +106,16 @@
   }
 
   .resources {
-    font-size: 45px;
+    font-size: 60px;
+  }
+
+  .awards {
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 770px) and (orientation: landscape) {
+  .currentseason {
+    font-size: 60px;
   }
 }

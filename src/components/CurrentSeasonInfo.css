@@ -1,0 +1,273 @@
+:root {
+  --main-radius: 5px;
+  --main-padding: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.NSLinks {
+  color: white;
+}
+
+.NScontainer {
+  display: grid;
+  height: 110vh;
+  justify-content: center;
+  /* background: rgb(239, 244, 255); */
+  background-color: rgb(26, 27, 36);
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "content5";
+  grid-gap: 0.2rem;
+  font-weight: 800;
+  /* text-transform: uppercase; */
+  font-size: 25px;
+  text-align: center;
+}
+
+.NSsubContentLeft {
+  /* background-color: rgba(255, 255, 255, 0.116); */
+  /* border-radius: 5px; */
+  height: 20vh;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  /* box-shadow: 2px 2px 5px black; */
+  display: flex;
+  justify-content: center;
+}
+
+.NSsubContentRight {
+  background-color: rgba(126, 126, 126, 0.103);
+  border-radius: 5px;
+  height: 10vh;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(87, 87, 87, 0.438);
+}
+
+.btn--seasons {
+  color: #fff;
+  padding: 18px;
+  transition: all 0.3s ease-out;
+  width: 85%;
+  font-size: 22px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.582);
+}
+
+.btn--seasons:hover {
+  filter: brightness(1.4);
+}
+
+#content5 {
+  background: linear-gradient(
+    320deg,
+    rgb(126, 214, 255) 10%,
+    rgb(33, 40, 54) 0%
+  );
+  color: rgb(255, 255, 255);
+  grid-area: content5;
+
+  /* border-radius: var(--main-radius); */
+  padding-top: var(--main-padding);
+  box-shadow: 1px 0px 20px rgb(13, 13, 26);
+  width: 60%;
+  justify-self: center;
+}
+
+#NS {
+  color: rgb(46, 81, 194);
+  font-size: 50px;
+  background-color: white;
+  background: linear-gradient(70deg, rgb(148, 173, 255), rgb(255, 255, 255));
+  margin-top: 15px;
+  box-shadow: 0px 2px 4px rgb(84, 132, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.PPLogo {
+  width: 200px;
+  height: 66px;
+}
+
+.NSRobot {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(114, 159, 255, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.NSTeam {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(114, 159, 255, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.NSAwards {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(114, 159, 255, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.NSOutreach {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(114, 159, 255, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.NS-container {
+  display: grid;
+  grid-template-columns: 0.2fr 0.5fr;
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 770px) {
+  #NS {
+    font-size: 30px;
+  }
+
+  .PPLogo {
+    width: 150px;
+    height: 50px;
+  }
+
+  .btn--seasons {
+    color: #fff;
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    width: 85%;
+    font-size: 12px;
+  }
+
+  .NScontainer {
+    font-size: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "content5";
+    height: 76vh;
+  }
+
+  #content5 {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .NSsubContentLeft {
+    /* background-color: rgba(255, 255, 255, 0.11); */
+    border-radius: 5px;
+    height: 10vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    /* box-shadow: 2px 2px 5px black; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .NSsubContentRight {
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 5px;
+    height: 5vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .NS-container {
+    grid-template-columns: 0.4fr 0.5fr;
+  }
+
+  .NSRobot {
+    width: 90px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .NSTeam {
+    width: 90px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .NSAwards {
+    width: 90px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .NSOutreach {
+    width: 90;
+    height: 75px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 770px) and (orientation: landscape) {
+  .NSsubContentLeft {
+    height: 20vh;
+  }
+
+  .NSsubContentRight {
+    height: 10vh;
+  }
+
+  .NScontainer {
+    height: 160vh;
+  }
+
+  .NS-container {
+    grid-template-columns: 0.3fr 0.5fr;
+  }
+
+  .NSRobot {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+  .NSTeam {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+  .NSAwards {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+  .NSOutreach {
+    width: auto;
+    height: 85px;
+    border-radius: 10px;
+  }
+}

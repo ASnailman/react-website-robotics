@@ -87,6 +87,28 @@
   font-weight: 600;
 }
 
+#articleEngineeringDay {
+  height: 120vh;
+}
+
+#articleRobotMall {
+  height: 105vh;
+}
+
+#articleTrailblazers {
+  height: 170vh;
+}
+
+.articlePostImageMall {
+  margin-left: 50px;
+  height: 40vh;
+  width: 55vh;
+}
+
+.engineerDayVideoLink {
+  font-family: "Nexa", sans-serif;
+}
+
 @media only screen and (max-width: 770px) {
   .articleWrapper {
     height: 260vh;
@@ -100,10 +122,56 @@
   .articlePostDescription {
     font-size: 15px;
   }
+
+  #articleEngineeringDay {
+    height: 210vh;
+  }
+
+  #articleRobotMall {
+    height: 192vh;
+  }
+
+  #articleTrailblazers {
+    height: 210vh;
+  }
+
+  .articlePostImageMall {
+    margin-left: 50px;
+    height: 20vh;
+    width: 35vh;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 770px) and (orientation: landscape) {
   .articleWrapper {
     height: 300vh;
+  }
+
+  #articleEngineeringDay {
+    height: 315vh;
+  }
+
+  #articleRobotMall {
+    height: 280vh;
+  }
+
+  .articlePostImageMall {
+    margin-left: 50px;
+    height: 80vh;
+    width: 120vh;
+  }
+
+  #articleTrailblazers {
+    height: 375vh;
+  }
+
+  iframe {
+    width: 70%;
+    height: 70vh;
   }
 }

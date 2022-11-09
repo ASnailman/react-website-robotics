@@ -68,6 +68,11 @@
   background-color: #3e497036;
 }
 
+.cards__item:hover {
+  /* box-shadow: 0 6px 20px rgba(184, 122, 40, 0.473); */
+  box-shadow: 0 6px 20px rgba(121, 0, 0, 0.404);
+}
+
 .cards__item__pic-wrap {
   position: relative;
   width: 100%;

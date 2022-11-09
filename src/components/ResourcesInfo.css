@@ -16,22 +16,22 @@
   color: #ffffff;
   text-align: center;
   justify-content: center;
-  background-color: rgb(26, 27, 36);
+  /* background-color: rgb(26, 27, 36); */
 }
 
 .resWrapper {
   display: grid;
-  width: 100%;
-  height: 50vh;
-  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  height: 105vh;
+  grid-template-columns: 0.31fr 0.31fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "How-To UsefulLinks"
     "Tools Clips";
-  grid-gap: 0.2rem;
+  grid-gap: 2rem;
   font-weight: 800;
-  text-transform: uppercase;
-  font-size: 50px;
+  /* text-transform: uppercase; */
+  font-size: 40px;
   color: #ffffff;
   text-align: center;
   justify-content: center;
@@ -51,7 +51,8 @@
   align-items: center;
   justify-content: center;
   font-family: "Nexa", sans-serif;
-  background: linear-gradient(180deg, #ff957b 0%, #f1804b 50%, #ff957b 100%);
+  /* background: linear-gradient(180deg, #ff957b 0%, #f1804b 50%, #ff957b 100%); */
+  /* background-color: gray; */
   grid-area: How-To;
   border-radius: var(--main-radius);
 }
@@ -61,7 +62,8 @@
   align-items: center;
   justify-content: center;
   font-family: "Nexa", sans-serif;
-  background: linear-gradient(180deg, #eacd7e 0%, #dfc73d 50%, #eacd7e 100%);
+  /* background: linear-gradient(180deg, #eacd7e 0%, #dfc73d 50%, #eacd7e 100%); */
+  /* background-color: gray; */
   grid-area: UsefulLinks;
   border-radius: var(--main-radius);
 }
@@ -71,7 +73,8 @@
   align-items: center;
   justify-content: center;
   font-family: "Nexa", sans-serif;
-  background: linear-gradient(180deg, #7ec8ea 0%, #4bcaf1 50%, #7ec8ea 100%);
+  /* background: linear-gradient(180deg, #7ec8ea 0%, #4bcaf1 50%, #7ec8ea 100%); */
+  /* background-color: gray; */
   grid-area: Tools;
   border-radius: var(--main-radius);
 }
@@ -81,24 +84,90 @@
   align-items: center;
   justify-content: center;
   font-family: "Nexa", sans-serif;
-  background: linear-gradient(180deg, #7b9eff 0%, #8793ff 50%, #7b9eff 100%);
+  /* background: linear-gradient(180deg, #7b9eff 0%, #8793ff 50%, #7b9eff 100%); */
+  /* background-color: gray; */
   grid-area: Clips;
   border-radius: var(--main-radius);
 }
 
-#How-To:hover,
-#UsefulLinks:hover,
-#Tools:hover,
-#Clips:hover {
-  transform: scale(1.01);
-  transition: 400ms;
-  box-shadow: 0px 3px 25px rgb(15, 15, 15);
+.reCardsItem {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  width: 100%;
+  /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
+  border-radius: 3px;
+  overflow: hidden;
+  text-decoration: none;
+  margin-bottom: 10px;
+  /* background-color: #3e4970; */
+}
+
+.reCardsItem:hover {
+  box-shadow: 0 6px 20px rgba(103, 169, 255, 0.315);
+}
+
+.reCardsItemPicWrap {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
+}
+
+.reCardsItemPicWrap::after {
+  content: attr(data-category);
+  position: absolute;
+  top: 0;
+  left: 3%;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  /* background-color: #005a75d8; */
+  background: linear-gradient(180deg, #ffbb7b 0%, #ff9575 50%, #ff6161 100%);
+  box-sizing: border-box;
+}
+
+.reCardsItemImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  /* max-height: 87.5%; */
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.reCardsItemImg:hover {
+  transform: scale(1.03);
+}
+
+.reCardsItemInfo {
+  padding: 20px 30px 30px;
+  background-color: #ffffffef;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.486);
+}
+
+.reCardsItemText {
+  color: #21273d;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none !important;
 }
 
 @media only screen and (max-width: 770px) {
   .resWrapper {
     width: 100%;
-    grid-template-columns: 1fr;
+    height: 200vh;
+    grid-template-columns: 0.9fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "How-To"
@@ -111,7 +180,8 @@
 
 @media only screen and (max-width: 770px) and (orientation: landscape) {
   .resWrapper {
-    width: 100%;
+    width: 75%;
+    height: 152vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:

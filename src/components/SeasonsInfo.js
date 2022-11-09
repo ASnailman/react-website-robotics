@@ -88,7 +88,7 @@ function SeasonsInfo() {
             buttonStyle="btn--seasons"
             buttonSize="btn--seasonsPage"
           >
-            <Link to="/Awards" className="Links">
+            <Link to="/PastAwards" className="Links">
               AWARDS
             </Link>
           </Button>
@@ -107,6 +107,23 @@ function SeasonsInfo() {
           >
             <Link to="/pastoutreach" className="Links">
               OUTREACH
+            </Link>
+          </Button>
+
+          <div className="subContentLeft" id="picture">
+            <img
+              src={require("../images/clip.png")}
+              alt="SVG logo"
+              className="FFClips"
+            />
+          </div>
+          <Button
+            className="subContentRight"
+            buttonStyle="btn--seasons"
+            buttonSize="btn--seasonsPage"
+          >
+            <Link to="/clips" className="Links">
+              CLIPS
             </Link>
           </Button>
         </div>
@@ -137,7 +154,7 @@ function SeasonsInfo() {
 
           <div className="subContentLeft" id="picture">
             <img
-              src={require("../images/FFRobot.jpg")}
+              src={require("../images/ugteammembers.png")}
               alt="SVG logo"
               className="UGTeam"
             />
@@ -154,7 +171,7 @@ function SeasonsInfo() {
 
           <div className="subContentLeft" id="picture">
             <img
-              src={require("../images/FFRobot.jpg")}
+              src={require("../images/awards/Qual2021.jpg")}
               alt="SVG logo"
               className="UGAwards"
             />
@@ -164,7 +181,7 @@ function SeasonsInfo() {
             buttonStyle="btn--seasons"
             buttonSize="btn--seasonsPage"
           >
-            <Link to="/Awards" className="Links">
+            <Link to="/PastAwards" className="Links">
               AWARDS
             </Link>
           </Button>

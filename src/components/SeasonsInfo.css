@@ -13,12 +13,12 @@ html {
 
 .container {
   display: grid;
-  height: 220vh;
+  height: 250vh;
   justify-content: center;
   /* background: rgb(239, 244, 255); */
   background-color: rgb(26, 27, 36);
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1.2fr 1fr;
   grid-template-areas:
     "content4"
     "content3";
@@ -148,6 +148,15 @@ html {
 }
 
 .FFOutreach {
+  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgba(199, 114, 255, 0.438);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.FFClips {
   border-radius: 10px;
   border: 3px;
   border-style: solid;
@@ -324,12 +333,10 @@ html {
 
   .container {
     font-size: 20px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
     grid-template-areas:
       "content4"
       "content3";
-    height: 160vh;
+    height: 180vh;
   }
 
   #content1,
@@ -396,6 +403,11 @@ html {
     height: 75px;
     border-radius: 10px;
   }
+  .FFClips {
+    width: 90px;
+    height: 85px;
+    border-radius: 10px;
+  }
 
   .UGRobot {
     width: 90px;
@@ -429,7 +441,7 @@ html {
   }
 
   .container {
-    height: 330vh;
+    height: 370vh;
   }
 
   .ultimate-container {
@@ -455,7 +467,7 @@ html {
     height: 85px;
     border-radius: 10px;
   }
-  .FFOutreach {
+  .FFClips {
     width: auto;
     height: 85px;
     border-radius: 10px;

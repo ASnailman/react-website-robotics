@@ -83,7 +83,7 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitle">
-              <Link to="/TeamPractice" className="FFoutreachLinks">
+              <Link to="/TrailblazersPractice" className="FFoutreachLinks">
                 Hosting a Practice With Another Team
               </Link>
             </h2>

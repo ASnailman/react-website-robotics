@@ -15,7 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Navbar from "./components/Navbar";
 import FFRobot from "./components/SeasonsPages/FFRobot";
 import UGRobot from "./components/SeasonsPages/UGRobot";
-import Awards from "./components/SeasonsPages/Awards";
+import PastAwards from "./components/SeasonsPages/PastAwards";
 import FFWorkshop from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/FFWorkshop";
 import FFEngineeringDay from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/FFEngineeringDay";
 import FLLState from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/FLLState";
@@ -34,7 +34,12 @@ import Tools from "./components/ResourcePages/Tools";
 import Clips from "./components/ResourcePages/Clips";
 import StemCamp from "./components/OutreachArticles/CurrentSeason/StemCamp";
 import IgniteAndWorkshop from "./components/OutreachArticles/CurrentSeason/IgniteAndWorkshop";
+import PowerPlayKickoff from "./components/OutreachArticles/CurrentSeason/PowerPlayKickoff";
 import CurrentSeason from "./components/pages/CurrentSeason";
+import DocSpecs from "./components/ResourcePages/DocSpecs";
+import UpcomingEvents from "./components/UpcomingEvents";
+import CatFamDay from "./components/OutreachArticles/CurrentSeason/CatFamDay";
+import PreScrim from "./components/OutreachArticles/CurrentSeason/PreScrim";
 
 function App() {
   return (
@@ -44,17 +49,17 @@ function App() {
         {/* <BetterNavbar /> */}
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/seasons" element={<Seasons />} />
-          <Route path="/currentseason" element={<CurrentSeason />} />
-          <Route path="/teammembers" exact element={<TeamMembers />} />
           <Route path="/about" exact element={<About />} />
+          <Route path="/seasons" exact element={<Seasons />} />
+          <Route path="/currentseason" exact element={<CurrentSeason />} />
+          <Route path="/teammembers" exact element={<TeamMembers />} />
           <Route path="/Resources" exact element={<Resources />} />
           <Route path="/pastoutreach" exact element={<PastOutreach />} />
           <Route path="/outreach" exact element={<CurrentOutreach />} />
           <Route path="/SurveyForm" exact element={<SurveyForm />} />
           <Route path="/FFRobot" exact element={<FFRobot />} />
           <Route path="/UGRobot" exact element={<UGRobot />} />
-          <Route path="/Awards" exact element={<Awards />} />
+          <Route path="/PastAwards" exact element={<PastAwards />} />
           <Route path="/FFWorkshop" exact element={<FFWorkshop />} />
           <Route
             path="/FFEngineeringDay"
@@ -81,10 +86,19 @@ function App() {
             exact
             element={<IgniteAndWorkshop />}
           />
+          <Route
+            path="/PowerPlayKickoff"
+            exact
+            element={<PowerPlayKickoff />}
+          />
+          <Route path="/CaterpillarFamilyDay" exact element={<CatFamDay />} />
+          <Route path="/PreMeetScrimPP" exact element={<PreScrim />} />
           <Route path="/HowTo" exact element={<HowTo />} />
           <Route path="/UsefulLinks" exact element={<UsefulLinks />} />
           <Route path="/Tools" exact element={<Tools />} />
+          <Route path="/DocSpecs" exact element={<DocSpecs />} />
           <Route path="/Clips" exact element={<Clips />} />
+          <Route path="/UpcomingEvents" exact element={<UpcomingEvents />} />
         </Routes>
       </Router>
     </>

@@ -1,0 +1,124 @@
+.robotInfoWrapper {
+  background-color: rgb(247, 247, 247);
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.FFmodel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.afzalModel {
+  font-size: 20px;
+  color: rgb(89, 201, 108);
+  font-family: "Nexa", sans-serif;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.FFrobotdetails {
+  font-family: "Nexa", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+  margin: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.FFRobotImgList {
+  display: flex;
+  justify-content: center;
+}
+
+.FFRobotIMG {
+  width: 300px;
+  height: 300px;
+  border: 2px rgb(255, 128, 43) solid;
+  margin: 5px;
+}
+
+.UGRobotIMG {
+  width: 300px;
+  height: 300px;
+  border: 2px rgb(255, 128, 43) solid;
+  margin: 5px;
+}
+
+.robotPicTitle {
+  text-align: center;
+  font-family: "Nexa", sans-serif;
+  font-weight: 600;
+}
+
+#UGRobot1 {
+  width: 450px;
+  height: 300px;
+}
+
+#UGRobot5 {
+  width: 450px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 770px) {
+  .robotInfoWrapper {
+    background-color: rgb(247, 247, 247);
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+  }
+
+  .FFrobotdetails {
+    font-family: "Nexa", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    line-height: 20px;
+  }
+
+  .FFRobotImgList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FFRobotIMG {
+    width: 110px;
+    height: 120px;
+  }
+
+  .UGRobotIMG {
+    width: 110px;
+    height: 120px;
+  }
+
+  #UGRobot1 {
+    width: 110px;
+    height: 120px;
+  }
+
+  #UGRobot4 {
+    width: 130px;
+    height: 120px;
+  }
+
+  #UGRobot5 {
+    width: 180px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 770px) and (orientation: landscape) {
+  .robotInfoWrapper {
+    height: 200vh;
+  }
+}

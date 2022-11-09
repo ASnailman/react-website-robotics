@@ -20,6 +20,17 @@
   margin-top: 45px;
 }
 
+.titlePP {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 5px black;
+  font-size: 40px;
+  margin-top: 45px;
+}
+
 .center {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -133,7 +144,16 @@ h3 {
   margin-bottom: 60px;
 }
 
-hr {
+.PPhr {
+  border: none;
+  border-top: 2px dashed #25253d;
+  background-color: rgb(136, 136, 136);
+  height: 2px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.FFhr {
   border: none;
   border-top: 2px dashed #25253d;
   background-color: rgb(136, 136, 136);

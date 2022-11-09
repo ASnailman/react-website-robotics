@@ -78,15 +78,15 @@ function Navbar() {
               </Link>
             </li>
 
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link
-                to="/outreach"
+                to="/Resources"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Outreach
+                Resources
               </Link>
-            </li> */}
+            </li>
 
             <li>
               <Link
@@ -100,7 +100,9 @@ function Navbar() {
           </ul>
           {button && (
             <Button buttonStyle="btn--about" buttonSize="btn--medium">
-              ABOUT
+              <Link to="/about" id="aboutLink">
+                ABOUT
+              </Link>
             </Button>
           )}
         </div>

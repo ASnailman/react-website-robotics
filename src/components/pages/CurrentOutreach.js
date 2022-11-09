@@ -6,7 +6,7 @@ import NewOutreachInfo from "../NewOutreachInfo";
 function CurrentOutreach() {
   return (
     <>
-      <h1 className="outreach"> CURRENT OUTREACH</h1>;
+      <h1 className="outreach"> CURRENT OUTREACH</h1>
       <NewOutreachInfo />
       <Footer />
     </>

@@ -64,6 +64,169 @@ export default class TeamSlider extends Component {
           <h1 className="teammembers">TEAM MEMBERS</h1>
         </div>
 
+        <h2 className="titlePP">Power Play Team Members</h2>
+        <Slider {...settings}>
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Harris</h3>
+              <img
+                src={require("../images/TeamMembers/harris.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">Software/Control Lead</p>
+            </div>
+          </div>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Adam</h3>
+              <img
+                src={require("../images/TeamMembers/adam.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">Electrical Lead</p>
+            </div>
+          </div>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Mahee</h3>
+              <img
+                src={require("../images/TeamMembers/mahee.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">Mechanical Lead</p>
+            </div>
+          </div>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3 className="afzal">Afzal</h3>
+              <img
+                src={require("../images/TeamMembers/afzal.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">CAD Desginer/Mechanical Team Member</p>
+            </div>
+          </div>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Nubaid</h3>
+              <img
+                src={require("../images/TeamMembers/nubaid.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">
+                Software Team Member/Electrical Parts Owner/ENB Lead
+              </p>
+            </div>
+          </div>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Wajeeh</h3>
+              <img
+                src={require("../images/TeamMembers/wajeeh.png")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">
+                Software Team Member/Mechanical Parts Owner
+              </p>
+            </div>
+          </div>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Aleena</h3>
+              <img
+                src={require("../images/howLogo.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description">Media Lead</p>
+            </div>
+          </div>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Oais</h3>
+              <img
+                src={require("../images/howLogo.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description"></p>
+            </div>
+          </div>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Yusuf</h3>
+              <img
+                src={require("../images/howLogo.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description"></p>
+            </div>
+          </div>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Abdurahman</h3>
+              <img
+                src={require("../images/howLogo.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description"></p>
+            </div>
+          </div>
+
+          <div className="box-container">
+            <div className="picture-container">
+              <h3>Aziz</h3>
+              <img
+                src={require("../images/howLogo.jpg")}
+                alt="example"
+                className="picture"
+              />
+            </div>
+            <div className="description-container">
+              <p className="description"></p>
+            </div>
+          </div>
+        </Slider>
+
+        <hr className="PPhr" />
+
         <h2 className="titleFF">Freight Frenzy Team Members</h2>
 
         <Slider {...settings}>
@@ -172,7 +335,7 @@ export default class TeamSlider extends Component {
           </div>
         </Slider>
 
-        <hr />
+        <hr className="FFhr" />
 
         <h2 className="title">Ultimate Goal Team Members</h2>
         <Slider {...settings}>

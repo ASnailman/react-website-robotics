@@ -3,18 +3,16 @@
   --main-padding: 10px;
 }
 
-.NewOutreachContainer {
+.PPOutreachContainer {
   display: grid;
   /* height: 320vh; */
-  height: 51vh;
+  height: 108vh;
   justify-content: center;
   /* background: rgb(239, 244, 255); */
   background-color: rgb(26, 27, 36);
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "FFcontent"
-    "UGcontent";
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  /* grid-template-rows: 1fr; */
+  grid-template-areas: "PPcontent";
   grid-gap: 0.2rem;
   /* font-weight: 800; */
   /* text-transform: uppercase; */
@@ -22,24 +20,23 @@
   text-align: center;
 }
 
-#NEWcontent {
+#PPcontent {
   background: linear-gradient(
     320deg,
     rgb(126, 182, 255) 10%,
     rgb(33, 40, 54) 0%
   );
   color: rgb(255, 255, 255);
-  grid-area: FFcontent;
-
+  grid-area: PPContent;
   /* border-radius: var(--main-radius); */
   padding-top: 10px;
   box-shadow: 1px 0px 20px rgb(13, 13, 26);
-  width: 60%;
+  width: 100%;
   justify-self: center;
-  height: 51vh;
+  height: 107vh;
 }
 
-#NEW {
+#PP {
   color: rgb(46, 81, 194);
   font-size: 50px;
   background-color: white;
@@ -51,7 +48,7 @@
   justify-content: center;
 }
 
-.NEWarticlesContainer {
+.PParticlesContainer {
   padding-top: 10px;
   display: grid;
   grid-template-columns: 0.3fr 1fr;
@@ -60,7 +57,7 @@
   align-items: center;
 }
 
-.NEWarticlePicture {
+.PParticlePicture {
   margin-top: 15px;
   margin-right: 8px;
   margin-left: 15px;
@@ -71,7 +68,7 @@
   background-color: rgb(61, 138, 206);
 }
 
-.NEWarticleCoverPictures {
+.PParticleCoverPictures {
   height: 16vh;
   width: 27vh;
   object-fit: fill;
@@ -80,7 +77,7 @@
   border-width: 2px;
 }
 
-.NEWarticle {
+.PParticle {
   margin-top: 15px;
   margin-right: 15px;
   margin-left: 7px;
@@ -95,33 +92,33 @@
   border-width: 2px;
 }
 
-.NEWarticleTitle {
+.PParticleTitle {
   font-size: 30px;
   margin: 5px;
 }
 
-.NEWarticleTitle:hover {
+.PParticleTitle:hover {
   text-decoration: underline;
   color: rgb(154, 176, 197);
 }
 
-.newOutreachLinks {
+.PPOutreachLinks {
   color: white;
 }
 
-.newOutreachLinks:hover {
+.PPOutreachLinks:hover {
   text-decoration: underline;
   color: rgb(154, 168, 197);
 }
 
-.NEWarticleDescription {
+.PParticleDescription {
   font-size: 15px;
   font-weight: 600;
   margin: 15px;
   font-family: "Nexa", sans-serif;
 }
 
-.NEWcredentials {
+.PPcredentials {
   font-size: 15px;
   margin: 15px;
   font-family: "Nexa", sans-serif;
@@ -129,93 +126,89 @@
 }
 
 @media only screen and (max-width: 770px) {
-  .NewOutreachContainer {
+  .PPOutreachContainer {
     font-size: 20px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "FFcontent"
-      "UGcontent";
-    height: 50vh;
+    grid-template-areas: "PPcontent";
+    height: 100vh;
   }
 
-  #NEW {
+  #PP {
     font-size: 35px;
   }
 
-  #NEWcontent {
+  #PPcontent {
     margin: 0px;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
   }
 
-  .NEWarticle {
+  .PParticle {
     height: 14vh;
   }
 
-  .NEWarticleTitle {
+  .PParticleTitle {
     font-size: 11px;
     margin: 5px;
   }
 
-  .NEWarticleDescription {
+  .PParticleDescription {
     font-size: 7px;
     margin: 10px;
   }
 
-  .NEWcredentials {
+  .PPcredentials {
     font-size: 7px;
     margin: 5px;
   }
 
-  .NEWarticleCoverPictures {
+  .PParticleCoverPictures {
     height: 14vh;
     width: 18vh;
   }
 
-  .NEWarticlePicture {
+  .PParticlePicture {
     height: 14vh;
   }
 }
 
 @media only screen and (max-width: 770px) and (orientation: landscape) {
-  .NewOutreachContainer {
-    height: 100vh;
+  .PPOutreachContainer {
+    height: 186vh;
   }
 
-  #NEW {
-    font-size: 40px;
+  #PPcontent {
+    width: 100%;
   }
 
-  #NEWcontent {
-    height: 100vh;
+  #PPcontent {
+    height: 184vh;
   }
 
-  .NEWarticle {
+  .PParticle {
     height: 24vh;
   }
 
-  .NEWarticleTitle {
+  .PParticleTitle {
     font-size: 14px;
     margin: 5px;
   }
 
-  .NEWarticleDescription {
+  .PParticleDescription {
     font-size: 9px;
     margin: 10px;
   }
 
-  .NEWcredentials {
+  .PPcredentials {
     font-size: 9px;
     margin: 5px;
   }
 
-  .NEWarticleCoverPictures {
+  .PParticleCoverPictures {
     height: 24vh;
     width: 40vh;
   }
 
-  .NEWarticlePicture {
+  .PParticlePicture {
     height: 24vh;
   }
 }

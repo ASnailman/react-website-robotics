@@ -55,7 +55,8 @@
 }
 
 .nav-item {
-  height: 70px;
+  height: 80px;
+  margin-top: 10px;
   /* transition: all 0.2s ease-out; */
 }
 
@@ -94,6 +95,10 @@
   display: none;
 }
 
+#aboutLink {
+  color: white;
+}
+
 @media screen and (max-width: 960px) {
   .navbar {
     height: 70px;
@@ -107,9 +112,9 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 200vh;
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;

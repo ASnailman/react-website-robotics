@@ -29,15 +29,15 @@ function Footer() {
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2 className="about-us">About Us</h2>
-            <Link to="/">Engineering Journal</Link>
+            <h2 className="currentSeason">Current Season</h2>
+            <Link to="/">Robot</Link>
             <Link to="/teammembers">Team Members</Link>
             <Link to="/outreach">Current Outreach</Link>
-            <Link to="/">Upcoming Events</Link>
+            <Link to="/UpcomingEvents">Upcoming Events</Link>
           </div>
           <div className="footer-link-items">
             <h2 className="contact-us">Contact Us</h2>
-            <Link to="/">Email</Link>
+            <a href="mailto:how14469@gmail.com">Email</a>
             <Link to="/surveyform">Survey</Link>
             {/* <Link to="/">PLACEMENT TEXT</Link>
             <Link to="/">PLACEMENT TEXT</Link> */}
@@ -51,7 +51,7 @@ function Footer() {
             <Link to="/UsefulLinks">Useful Links</Link>
             <Link to="/Tools">Tools</Link>
             {/* <Link to="/Clips">Clips</Link> */}
-            <Link to="/">Specs/Documentation</Link>
+            <Link to="/DocSpecs">Part Specs</Link>
           </div>
           <div className="footer-link-items">
             <h2 className="social-media">Social Media</h2>

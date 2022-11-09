@@ -1,0 +1,122 @@
+.awardsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "FFAwardsWrapper UGAwardsWrapper";
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  border: 3px rgb(255, 103, 57) solid;
+}
+
+.awardTitle {
+  color: white;
+  padding: 20px;
+  border: 2px rgb(255, 169, 57) solid;
+  margin: 10px;
+  margin-top: 20px;
+  background-color: rgb(59, 38, 44);
+}
+
+.awardFF {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 20px;
+  margin: 10px;
+  border: 2px rgb(255, 169, 57) solid;
+  background-color: rgb(49, 38, 59);
+}
+
+#FFAwards {
+  grid-area: FFAwardsWrapper;
+}
+
+.FFAwardsLogo {
+  border: 2px rgb(255, 169, 57) solid;
+  margin: 10px;
+  width: 350px;
+  height: 400px;
+}
+
+#UGAwards {
+  grid-area: UGAwardsWrapper;
+}
+
+.awardUG {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 20px;
+  border: 2px rgb(255, 169, 57) solid;
+  margin: 10px;
+  background-color: rgb(38, 59, 48);
+}
+
+.UGAwardsLogo {
+  border: 2px rgb(255, 169, 57) solid;
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 770px) {
+  .awardsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "FFAwardsWrapper"
+      "UGAwardsWrapper";
+  }
+
+  .awardUG {
+    font-size: 25px;
+  }
+
+  .awardFF {
+    font-size: 25px;
+  }
+
+  .awardTitle {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 770px) and (orientation: landscape) {
+  .awardsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "FFAwardsWrapper UGAwardsWrapper";
+    background-color: rgb(33, 38, 61);
+    text-align: center;
+  }
+
+  .UGAwardsLogo {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+  }
+
+  .FFAwardsLogo {
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+  }
+
+  .awardFF {
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  .awardUG {
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  .awardTitle {
+    font-size: 10px;
+  }
+}

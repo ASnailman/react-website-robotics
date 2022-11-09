@@ -16,17 +16,17 @@ function Cards() {
               path="/seasons"
             />
             <CardItem
+              src={require("../images/newSeason.png")}
+              text="Power Play Season"
+              label="Current Season - Power Play"
+              path="/currentseason"
+            />
+            <CardItem
               src={require("../images/team2.png")}
               text="Meet Our Team Members"
               label="History of Team Members"
               path="/teammembers"
               id="teamMembers"
-            />
-            <CardItem
-              src={require("../images/outreach.png")}
-              text="Our Current Outreach"
-              label="2018 - 2022"
-              path="/outreach"
             />
           </ul>
           <ul className="cards__items">
