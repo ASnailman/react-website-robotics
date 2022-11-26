@@ -166,7 +166,7 @@ a:active {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 770px) {
   .cards__item {
     margin-left: 0px;
   }
@@ -204,5 +204,17 @@ a:active {
     color: #fff;
     background-color: #58000fd8;
     box-sizing: content-box;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
+  .cards__items {
+    display: flex;
   }
 }

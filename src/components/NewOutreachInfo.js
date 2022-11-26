@@ -109,6 +109,25 @@ function NewOutreachInfo() {
             </p>
             <p className="PPcredentials">By: Harris | 10/25/22</p>
           </div>
+
+          <div className="PParticlePicture">
+            <img
+              src={require("../images/outreachPhotos/FLLScrim2022.jpg")}
+              alt="SVG logo"
+              className="PParticleCoverPictures"
+            />
+          </div>
+          <div className="PParticle">
+            <h2 className="PParticleTitle">
+              <Link to="/FLLScrim" className="PPOutreachLinks">
+                FLL Scrimmage 2022
+              </Link>
+            </h2>
+            <p className="PParticleDescription">
+              Hosted the 2022 FLL Scrimmage at ICP
+            </p>
+            <p className="PPcredentials">By: Harris | 10/25/22</p>
+          </div>
         </div>
       </div>
     </div>

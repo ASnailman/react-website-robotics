@@ -68,7 +68,7 @@ export default class TeamSlider extends Component {
         <Slider {...settings}>
           <div className="box-container">
             <div className="picture-container">
-              <h3>Harris</h3>
+              <h3 className="sliderName">Harris</h3>
               <img
                 src={require("../images/TeamMembers/harris.png")}
                 alt="example"
@@ -76,13 +76,13 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">Software/Control Lead</p>
+              <p className="sliderDescription">Software/Control Lead</p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Adam</h3>
+              <h3 className="sliderName">Adam</h3>
               <img
                 src={require("../images/TeamMembers/adam.png")}
                 alt="example"
@@ -90,13 +90,13 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">Electrical Lead</p>
+              <p className="sliderDescription">Electrical Lead</p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Mahee</h3>
+              <h3 className="sliderName">Mahee</h3>
               <img
                 src={require("../images/TeamMembers/mahee.png")}
                 alt="example"
@@ -104,7 +104,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">Mechanical Lead</p>
+              <p className="sliderDescription">Mechanical Lead</p>
             </div>
           </div>
 
@@ -118,13 +118,15 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">CAD Desginer/Mechanical Team Member</p>
+              <p className="sliderDescription">
+                CAD Desginer/Mechanical Team Member
+              </p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Nubaid</h3>
+              <h3 className="sliderName">Nubaid</h3>
               <img
                 src={require("../images/TeamMembers/nubaid.png")}
                 alt="example"
@@ -132,7 +134,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">
+              <p className="sliderDescription">
                 Software Team Member/Electrical Parts Owner/ENB Lead
               </p>
             </div>
@@ -140,7 +142,7 @@ export default class TeamSlider extends Component {
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Wajeeh</h3>
+              <h3 className="sliderName">Wajeeh</h3>
               <img
                 src={require("../images/TeamMembers/wajeeh.png")}
                 alt="example"
@@ -148,7 +150,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">
+              <p className="sliderDescription">
                 Software Team Member/Mechanical Parts Owner
               </p>
             </div>
@@ -156,21 +158,21 @@ export default class TeamSlider extends Component {
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Aleena</h3>
+              <h3 className="sliderName">Aleena</h3>
               <img
-                src={require("../images/howLogo.jpg")}
+                src={require("../images/TeamMembers/aleena.jpg")}
                 alt="example"
                 className="picture"
               />
             </div>
             <div className="description-container">
-              <p className="description">Media Lead</p>
+              <p className="sliderDescription">Media Lead</p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Oais</h3>
+              <h3 className="sliderName">Oais</h3>
               <img
                 src={require("../images/howLogo.jpg")}
                 alt="example"
@@ -178,13 +180,13 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description"></p>
+              <p className="sliderDescription"></p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Yusuf</h3>
+              <h3 className="sliderName">Yusuf</h3>
               <img
                 src={require("../images/howLogo.jpg")}
                 alt="example"
@@ -192,13 +194,13 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description"></p>
+              <p className="sliderDescription"></p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Abdurahman</h3>
+              <h3 className="sliderName">Abdurahman</h3>
               <img
                 src={require("../images/howLogo.jpg")}
                 alt="example"
@@ -206,13 +208,13 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description"></p>
+              <p className="sliderDescription"></p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Aziz</h3>
+              <h3 className="sliderName">Aziz</h3>
               <img
                 src={require("../images/howLogo.jpg")}
                 alt="example"
@@ -220,7 +222,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description"></p>
+              <p className="sliderDescription"></p>
             </div>
           </div>
         </Slider>
@@ -232,7 +234,7 @@ export default class TeamSlider extends Component {
         <Slider {...settings}>
           <div className="box-container">
             <div className="picture-container">
-              <h3>Harris</h3>
+              <h3 className="sliderName">Harris</h3>
               <img
                 src={require("../images/TeamMembers/harris.png")}
                 alt="example"
@@ -240,13 +242,13 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">Software/Control Lead</p>
+              <p className="sliderDescription">Software/Control Lead</p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Adam</h3>
+              <h3 className="sliderName">Adam</h3>
               <img
                 src={require("../images/TeamMembers/adam.png")}
                 alt="example"
@@ -254,13 +256,13 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">Electrical Lead</p>
+              <p className="sliderDescription">Electrical Lead</p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Mahee</h3>
+              <h3 className="sliderName">Mahee</h3>
               <img
                 src={require("../images/TeamMembers/mahee.png")}
                 alt="example"
@@ -268,7 +270,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">Mechanical Lead</p>
+              <p className="sliderDescription">Mechanical Lead</p>
             </div>
           </div>
 
@@ -282,13 +284,15 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">CAD Desginer/Mechanical Team Member</p>
+              <p className="sliderDescription">
+                CAD Desginer/Mechanical Team Member
+              </p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Nubaid</h3>
+              <h3 className="sliderName">Nubaid</h3>
               <img
                 src={require("../images/TeamMembers/nubaid.png")}
                 alt="example"
@@ -296,7 +300,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">
+              <p className="sliderDescription">
                 Software Team Member/Electrical Parts Owner
               </p>
             </div>
@@ -304,7 +308,7 @@ export default class TeamSlider extends Component {
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Manar</h3>
+              <h3 className="sliderName">Manar</h3>
               <img
                 src={require("../images/TeamMembers/manar.png")}
                 alt="example"
@@ -312,7 +316,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">
+              <p className="sliderDescription">
                 Media + Outreach Lead/Mechanical Team Member
               </p>
             </div>
@@ -320,7 +324,7 @@ export default class TeamSlider extends Component {
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Wajeeh</h3>
+              <h3 className="sliderName">Wajeeh</h3>
               <img
                 src={require("../images/TeamMembers/wajeeh.png")}
                 alt="example"
@@ -328,7 +332,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">
+              <p className="sliderDescription">
                 Software Team Member/Mechanical Parts Owner
               </p>
             </div>
@@ -341,7 +345,7 @@ export default class TeamSlider extends Component {
         <Slider {...settings}>
           <div className="box-container">
             <div className="picture-container">
-              <h3>Omar</h3>
+              <h3 className="sliderName">Omar</h3>
               <img
                 src={require("../images/TeamMembers/omar.png")}
                 alt="example"
@@ -349,13 +353,13 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">Mechanical Lead</p>
+              <p className="sliderDescription">Mechanical Lead</p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Ibraheem</h3>
+              <h3 className="sliderName">Ibraheem</h3>
               <img
                 src={require("../images/TeamMembers/ibraheem.png")}
                 alt="example"
@@ -363,7 +367,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">
+              <p className="sliderDescription">
                 Software + Control Lead/Electrical Lead
               </p>
             </div>
@@ -371,7 +375,7 @@ export default class TeamSlider extends Component {
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Sana</h3>
+              <h3 className="sliderName">Sana</h3>
               <img
                 src={require("../images/TeamMembers/sana.png")}
                 alt="example"
@@ -379,13 +383,13 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">Media/Outreach Lead</p>
+              <p className="sliderDescription">Media/Outreach Lead</p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Adel</h3>
+              <h3 className="sliderName">Adel</h3>
               <img
                 src={require("../images/TeamMembers/adel.png")}
                 alt="example"
@@ -393,13 +397,15 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">ENB Lead/Mechanical Team Member</p>
+              <p className="sliderDescription">
+                ENB Lead/Mechanical Team Member
+              </p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Harris</h3>
+              <h3 className="sliderName">Harris</h3>
               <img
                 src={require("../images/TeamMembers/harris.png")}
                 alt="example"
@@ -407,13 +413,13 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">Software Team Member</p>
+              <p className="sliderDescription">Software Team Member</p>
             </div>
           </div>
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Adam</h3>
+              <h3 className="sliderName">Adam</h3>
               <img
                 src={require("../images/TeamMembers/adam.png")}
                 alt="example"
@@ -421,7 +427,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">
+              <p className="sliderDescription">
                 Software Team Member/Electrical Team Member
               </p>
             </div>
@@ -429,7 +435,7 @@ export default class TeamSlider extends Component {
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Mahee</h3>
+              <h3 className="sliderName">Mahee</h3>
               <img
                 src={require("../images/TeamMembers/mahee.png")}
                 alt="example"
@@ -437,7 +443,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">
+              <p className="sliderDescription">
                 Mechanical Team Lead/Mechanical Parts Owner
               </p>
             </div>
@@ -445,7 +451,7 @@ export default class TeamSlider extends Component {
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Malak</h3>
+              <h3 className="sliderName">Malak</h3>
               <img
                 src={require("../images/TeamMembers/malak.jpg")}
                 alt="example"
@@ -453,7 +459,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">
+              <p className="sliderDescription">
                 Mechanical Team Member/Media Team Member
               </p>
             </div>
@@ -461,7 +467,7 @@ export default class TeamSlider extends Component {
 
           <div className="box-container">
             <div className="picture-container">
-              <h3>Nadine</h3>
+              <h3 className="sliderName">Nadine</h3>
               <img
                 src={require("../images/TeamMembers/nadine.jpg")}
                 alt="example"
@@ -469,7 +475,7 @@ export default class TeamSlider extends Component {
               />
             </div>
             <div className="description-container">
-              <p className="description">
+              <p className="sliderDescription">
                 Mechanical Team Member/Outreach Team Member
               </p>
             </div>

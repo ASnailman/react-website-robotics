@@ -189,3 +189,15 @@
       "Tools Clips";
   }
 }
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .resWrapper {
+    width: 75%;
+    height: 102vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "How-To UsefulLinks"
+      "Tools Clips";
+  }
+}

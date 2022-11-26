@@ -6,7 +6,7 @@
 .PPOutreachContainer {
   display: grid;
   /* height: 320vh; */
-  height: 108vh;
+  height: 128vh;
   justify-content: center;
   /* background: rgb(239, 244, 255); */
   background-color: rgb(26, 27, 36);
@@ -33,7 +33,7 @@
   box-shadow: 1px 0px 20px rgb(13, 13, 26);
   width: 100%;
   justify-self: center;
-  height: 107vh;
+  height: 127vh;
 }
 
 #PP {
@@ -129,7 +129,7 @@
   .PPOutreachContainer {
     font-size: 20px;
     grid-template-areas: "PPcontent";
-    height: 100vh;
+    height: 110vh;
   }
 
   #PP {
@@ -139,7 +139,7 @@
   #PPcontent {
     margin: 0px;
     width: 100%;
-    height: 100vh;
+    height: 115vh;
   }
 
   .PParticle {
@@ -173,7 +173,7 @@
 
 @media only screen and (max-width: 770px) and (orientation: landscape) {
   .PPOutreachContainer {
-    height: 186vh;
+    height: 200vh;
   }
 
   #PPcontent {
@@ -181,7 +181,7 @@
   }
 
   #PPcontent {
-    height: 184vh;
+    height: 204vh;
   }
 
   .PParticle {
@@ -201,6 +201,76 @@
   .PPcredentials {
     font-size: 9px;
     margin: 5px;
+  }
+
+  .PParticleCoverPictures {
+    height: 24vh;
+    width: 40vh;
+  }
+
+  .PParticlePicture {
+    height: 24vh;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .PPOutreachContainer {
+    height: 185vh;
+  }
+
+  #PPcontent {
+    height: 184vh;
+  }
+
+  .PParticle {
+    height: 24vh;
+  }
+
+  .PParticleTitle {
+    font-size: 27px;
+  }
+
+  .PParticleDescription {
+    font-size: 16px;
+  }
+
+  .PPcredentials {
+    font-size: 16px;
+  }
+
+  .PParticleCoverPictures {
+    height: 24vh;
+    width: 40vh;
+  }
+
+  .PParticlePicture {
+    height: 24vh;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
+  .PPOutreachContainer {
+    height: 185vh;
+  }
+
+  #PPcontent {
+    height: 184vh;
+  }
+
+  .PParticle {
+    height: 24vh;
+  }
+
+  .PParticleTitle {
+    font-size: 27px;
+  }
+
+  .PParticleDescription {
+    font-size: 16px;
+  }
+
+  .PPcredentials {
+    font-size: 16px;
   }
 
   .PParticleCoverPictures {

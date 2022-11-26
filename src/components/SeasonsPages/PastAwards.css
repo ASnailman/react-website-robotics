@@ -35,7 +35,7 @@
   border: 2px rgb(255, 169, 57) solid;
   margin: 10px;
   width: 350px;
-  height: 400px;
+  height: 470px;
 }
 
 #UGAwards {
@@ -55,7 +55,7 @@
 .UGAwardsLogo {
   border: 2px rgb(255, 169, 57) solid;
   width: 350px;
-  height: 400px;
+  height: 470px;
   margin: 10px;
 }
 
@@ -119,4 +119,13 @@
   .awardTitle {
     font-size: 10px;
   }
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  #UGAwardsList {
+    padding: 36px;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
 }

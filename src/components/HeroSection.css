@@ -20,7 +20,7 @@ video {
   transition: opacity 2s ease;
   color: rgb(255, 255, 255);
   font-size: 95px;
-
+  text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -30,7 +30,7 @@ video {
   transition: opacity 2s ease;
   color: rgb(255, 255, 255);
   font-size: 95px;
-
+  text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -143,11 +143,21 @@ video {
     "Lucida Sans", Arial, sans-serif;
 }
 
+#heroVideoLink:hover {
+  color: rgb(255, 193, 111);
+  transition: ease-in-out 300ms;
+}
+
 #heroPageLink {
   color: rgba(41, 194, 255, 0.945);
   text-decoration: underline;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+#heroPageLink:hover {
+  color: rgba(125, 218, 255, 0.945);
+  transition: ease-in-out 300ms;
 }
 
 #spanMeet1 {
@@ -226,9 +236,13 @@ video {
   .btn {
     width: 100%;
   }
+
+  #logoanimation {
+    margin-left: 10px;
+  }
 }
 
-@media only screen and (max-width: 900px) and (orientation: landscape) {
+@media only screen and (max-width: 768px) and (orientation: landscape) {
   .hero-container {
     height: 160vh;
   }
@@ -253,5 +267,30 @@ video {
 
   #heroAnnouncementsList {
     font-size: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .fade-in {
+    font-size: 75px;
+  }
+
+  .fade-out {
+    font-size: 75px;
+  }
+
+  #logoanimation {
+    width: 60%;
+  }
+
+  #heroRightTitle {
+    font-size: 60px;
+    margin: 50px 10px 10px 10px;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
+  #logoanimation {
+    width: 45%;
   }
 }

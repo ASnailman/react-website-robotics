@@ -46,13 +46,26 @@ function HeroSection() {
         <h1 id="heroRightTitle">Announcements</h1>
         <li id="heroAnnouncementsList">
           <a
+            href="https://www.youtube.com/watch?v=fLemsbU2_28&t=149s"
+            id="heroVideoLink"
+          >
+            Sprint 4
+          </a>{" "}
+          Video is now up on Youtube and on the{" "}
+          <Link to="/PPRobot" id="heroPageLink">
+            robot section
+          </Link>{" "}
+          of PowerPlay!
+        </li>
+        <li id="heroAnnouncementsList">
+          <a
             href="https://www.youtube.com/watch?v=uQsjA-X3RSc"
             id="heroVideoLink"
           >
             Sprint 3
           </a>{" "}
           Video is now up on Youtube and on the{" "}
-          <Link to="/" id="heroPageLink">
+          <Link to="/PPRobot" id="heroPageLink">
             robot section
           </Link>{" "}
           of PowerPlay!
@@ -68,7 +81,7 @@ function HeroSection() {
             Sprint 2
           </a>{" "}
           Video is now up on Youtube and on the{" "}
-          <Link to="/" id="heroPageLink">
+          <Link to="/PPRobot" id="heroPageLink">
             robot section
           </Link>{" "}
           of PowerPlay!
@@ -81,7 +94,7 @@ function HeroSection() {
             Sprint 1
           </a>{" "}
           Video is now up on Youtube and on the{" "}
-          <Link to="/" id="heroPageLink">
+          <Link to="/PPRobot" id="heroPageLink">
             robot section
           </Link>{" "}
           of PowerPlay!

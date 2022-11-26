@@ -17,7 +17,7 @@ function Cards() {
             />
             <CardItem
               src={require("../images/newSeason.png")}
-              text="Power Play Season"
+              text="Power Play Season 2022-2023"
               label="Current Season - Power Play"
               path="/currentseason"
             />

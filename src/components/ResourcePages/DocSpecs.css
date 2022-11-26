@@ -208,3 +208,35 @@
     margin-left: 50px; */
   }
 }
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .specsWrapper {
+    height: 115vh;
+    width: 80%;
+  }
+
+  .specsLink {
+    font-size: 16px;
+  }
+
+  #revMotors,
+  #revSensors,
+  #gobMotors,
+  #devCon {
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
+  .specsWrapper {
+    height: 115vh;
+    width: 80%;
+  }
+
+  #revMotors,
+  #revSensors,
+  #gobMotors,
+  #devCon {
+    padding-bottom: 40px;
+  }
+}

@@ -295,3 +295,134 @@
     height: 24vh;
   }
 }
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .OutreachContainer {
+    font-size: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "FFcontent"
+      "UGcontent";
+    height: 220vh;
+  }
+
+  #FF,
+  #UG {
+    font-size: 40px;
+  }
+
+  #FFcontent,
+  #UGcontent {
+    margin: 0px;
+    width: 100%;
+  }
+
+  #FFcontent {
+    height: 152vh;
+  }
+
+  .article {
+    height: 14vh;
+  }
+
+  .articleTitle,
+  .articleTitleUG,
+  #ronaldTitle {
+    font-size: 21px;
+    margin: 5px;
+  }
+
+  .articleDescription {
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  .credentials {
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .articleCoverPicturesFF,
+  .articleCoverPicturesUG {
+    height: 14vh;
+    width: 30vh;
+  }
+
+  .articlePicture {
+    height: 14vh;
+    /* width: 22vh; */
+  }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
+  .OutreachContainer {
+    font-size: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "FFcontent"
+      "UGcontent";
+    height: 295vh;
+  }
+
+  .articlesContainer {
+    grid-template-columns: 0.25fr 1fr;
+  }
+
+  #FF,
+  #UG {
+    font-size: 50px;
+  }
+
+  #FFcontent,
+  #UGcontent {
+    margin: 0px;
+    width: 100%;
+  }
+
+  #FFcontent {
+    height: 202vh;
+  }
+
+  #UGcontent {
+    height: 92vh;
+  }
+
+  .article {
+    height: 20vh;
+  }
+
+  .articleTitle,
+  .articleTitleUG,
+  #ronaldTitle {
+    font-size: 24px;
+    margin: 5px;
+  }
+
+  .articleDescription {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .credentials {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .articleCoverPicturesFF,
+  .articleCoverPicturesUG {
+    height: 20vh;
+    width: 40vh;
+  }
+
+  .articlePicture {
+    height: 20vh;
+  }
+}
+
+/* @media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
+} */

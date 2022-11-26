@@ -5,6 +5,8 @@ import Footer from "../Footer";
 import FinalistAlliance from "../../images/awards/FinalistAlliance.jpg";
 import League2022 from "../../images/awards/League2022.jpg";
 import Qual2021 from "../../images/awards/Qual2021.jpg";
+import FF2021AwardsList from "../../images/awards/FF2021AwardsList.png";
+import UG2020AwardsList from "../../images/awards/UG2020AwardsList.png";
 
 function PastAwards() {
   return (
@@ -23,6 +25,10 @@ function PastAwards() {
           </h2>
 
           <img src={League2022} alt="SVG logo" className="FFAwardsLogo" />
+
+          <h2 className="awardTitle">Freight Frenzy 2020-2021 Awards</h2>
+
+          <img src={FF2021AwardsList} alt="SVG logo" className="FFAwardsLogo" />
         </div>
 
         <div id="UGAwardsWrapper">
@@ -32,6 +38,12 @@ function PastAwards() {
           </h2>
 
           <img src={Qual2021} alt="SVG logo" className="UGAwardsLogo" />
+
+          <h2 className="awardTitle" id="UGAwardsList">
+            Ultimate Goal 2019-2020 Awards
+          </h2>
+
+          <img src={UG2020AwardsList} alt="SVG logo" className="UGAwardsLogo" />
         </div>
       </div>
       <Footer />

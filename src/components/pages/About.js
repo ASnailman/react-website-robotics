@@ -1,7 +1,6 @@
 import React from "react";
 import "../../App.css";
 import "./About.css";
-import Footer from "../Footer";
 
 function About() {
   return (
@@ -32,7 +31,7 @@ function About() {
           />
         </div> */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

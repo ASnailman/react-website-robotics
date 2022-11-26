@@ -15,6 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Navbar from "./components/Navbar";
 import FFRobot from "./components/SeasonsPages/FFRobot";
 import UGRobot from "./components/SeasonsPages/UGRobot";
+import PPRobot from "./components/SeasonsPages/PPRobot";
 import PastAwards from "./components/SeasonsPages/PastAwards";
 import FFWorkshop from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/FFWorkshop";
 import FFEngineeringDay from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/FFEngineeringDay";
@@ -40,6 +41,7 @@ import DocSpecs from "./components/ResourcePages/DocSpecs";
 import UpcomingEvents from "./components/UpcomingEvents";
 import CatFamDay from "./components/OutreachArticles/CurrentSeason/CatFamDay";
 import PreScrim from "./components/OutreachArticles/CurrentSeason/PreScrim";
+import FLLScrim from "./components/OutreachArticles/CurrentSeason/FLLScrim";
 
 function App() {
   return (
@@ -59,6 +61,7 @@ function App() {
           <Route path="/SurveyForm" exact element={<SurveyForm />} />
           <Route path="/FFRobot" exact element={<FFRobot />} />
           <Route path="/UGRobot" exact element={<UGRobot />} />
+          <Route path="/PPRobot" exact element={<PPRobot />} />
           <Route path="/PastAwards" exact element={<PastAwards />} />
           <Route path="/FFWorkshop" exact element={<FFWorkshop />} />
           <Route
@@ -93,6 +96,7 @@ function App() {
           />
           <Route path="/CaterpillarFamilyDay" exact element={<CatFamDay />} />
           <Route path="/PreMeetScrimPP" exact element={<PreScrim />} />
+          <Route path="/FLLScrim" exact element={<FLLScrim />} />
           <Route path="/HowTo" exact element={<HowTo />} />
           <Route path="/UsefulLinks" exact element={<UsefulLinks />} />
           <Route path="/Tools" exact element={<Tools />} />

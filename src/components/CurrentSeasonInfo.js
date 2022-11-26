@@ -13,7 +13,7 @@ function CurrentSeasonInfo() {
           <img src={powerPlay} alt="SVG logo" className="PPLogo" />
         </h2>
         <div className="NS-container">
-          <div className="NSsubContentLeft" id="picture">
+          <div className="NSsubContentLeft" id="NSpicture">
             <img
               src={require("../images/howLogo.jpg")}
               alt="SVG logo"
@@ -26,12 +26,12 @@ function CurrentSeasonInfo() {
             buttonSize="btn--seasonsPage"
             to="/FFRobot"
           >
-            <Link to="/" className="NSLinks">
+            <Link to="/PPRobot" className="NSLinks">
               ROBOT
             </Link>
           </Button>
 
-          <div className="NSsubContentLeft" id="picture">
+          <div className="NSsubContentLeft" id="NSpicture">
             <img
               src={require("../images/howLogo.jpg")}
               alt="SVG logo"
@@ -43,12 +43,12 @@ function CurrentSeasonInfo() {
             buttonStyle="btn--seasons"
             buttonSize="btn--seasonsPage"
           >
-            <Link to="/" className="NSLinks">
+            <Link to="/teammembers" className="NSLinks">
               TEAM MEMBERS
             </Link>
           </Button>
 
-          <div className="NSsubContentLeft" id="picture">
+          <div className="NSsubContentLeft" id="NSpicture">
             <img
               src={require("../images/howLogo.jpg")}
               alt="SVG logo"
@@ -65,7 +65,7 @@ function CurrentSeasonInfo() {
             </Link>
           </Button>
 
-          <div className="NSsubContentLeft" id="picture">
+          <div className="NSsubContentLeft" id="NSpicture">
             <img
               src={require("../images/outreachPhotos/catFamDay.jpg")}
               alt="SVG logo"

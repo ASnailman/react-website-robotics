@@ -5,7 +5,12 @@
 }
 
 .usefulWrapper {
-  background-color: rgb(247, 247, 247);
+  background: linear-gradient(
+    -140deg,
+    rgb(255, 177, 158) 12%,
+    rgb(255, 255, 255) 0%
+  );
+  /* background-color: rgb(247, 247, 247); */
   height: 100vh;
   width: 60%;
   justify-self: center;
@@ -89,6 +94,11 @@
   .usefulWrapper {
     height: 110vh;
     width: 100%;
+    background: linear-gradient(
+      -140deg,
+      rgb(255, 177, 158) 9%,
+      rgb(255, 255, 255) 0%
+    );
   }
 
   .usefulTitle {
@@ -115,12 +125,18 @@
   .usefulSection {
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
   }
 }
 
 @media only screen and (max-width: 770px) and (orientation: landscape) {
   .usefulWrapper {
     height: 160vh;
+    background: linear-gradient(
+      -140deg,
+      rgb(255, 177, 158) 15%,
+      rgb(255, 255, 255) 0%
+    );
   }
 
   .usefulHow,
@@ -149,5 +165,24 @@
 
   .usefulHowWrapper {
     margin-left: 25px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .usefulWrapper {
+    height: 120vh;
+    width: 80%;
+  }
+
+  .usefulSection {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
+  .usefulWrapper {
+    height: 130vh;
+    width: 80%;
   }
 }

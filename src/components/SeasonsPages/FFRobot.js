@@ -16,6 +16,7 @@ function FFRobot() {
       <div className="FFmodel">
         <Model />
         <p className="afzalModel">Model by Mohammed Afzal Khan</p>
+        <p className="modelWarning">Not Usable on Mobile!</p>
       </div>
 
       <div className="robotInfoWrapper">

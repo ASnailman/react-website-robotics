@@ -21,6 +21,14 @@
   margin: 10px;
 }
 
+.modelWarning {
+  font-size: 15px;
+  color: rgb(201, 111, 89);
+  font-family: "Nexa", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
 .FFrobotdetails {
   font-family: "Nexa", sans-serif;
   font-size: 15px;
@@ -120,5 +128,111 @@
 @media only screen and (max-width: 770px) and (orientation: landscape) {
   .robotInfoWrapper {
     height: 200vh;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .robotInfoWrapper {
+    background-color: rgb(247, 247, 247);
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+  }
+
+  .FFrobotdetails {
+    font-family: "Nexa", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    line-height: 20px;
+  }
+
+  .FFRobotImgList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .robotPicTitle {
+    font-size: 20px;
+  }
+
+  .FFRobotIMG {
+    width: 190px;
+    height: 200px;
+  }
+
+  .UGRobotIMG {
+    width: 190px;
+    height: 200px;
+  }
+
+  #UGRobot1 {
+    width: 190px;
+    height: 200px;
+  }
+
+  #UGRobot4 {
+    width: 190px;
+    height: 200px;
+  }
+
+  #UGRobot5 {
+    width: 240px;
+    height: 200px;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
+  .robotInfoWrapper {
+    background-color: rgb(247, 247, 247);
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+  }
+
+  .FFrobotdetails {
+    font-family: "Nexa", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    line-height: 25px;
+  }
+
+  .FFRobotImgList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FFRobotIMG {
+    width: 190px;
+    height: 200px;
+  }
+
+  .UGRobotIMG {
+    width: 190px;
+    height: 200px;
+  }
+
+  #UGRobot1 {
+    width: 190px;
+    height: 200px;
+  }
+
+  #UGRobot4 {
+    width: 190px;
+    height: 200px;
+  }
+
+  #UGRobot5 {
+    width: 240px;
+    height: 200px;
   }
 }

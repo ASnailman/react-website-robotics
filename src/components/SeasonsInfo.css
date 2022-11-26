@@ -104,6 +104,19 @@ html {
   height: 100px;
 }
 
+.FFRobot,
+.FFAwards,
+.FFOutreach,
+.FFTeam,
+.FFClips,
+.UGRobot,
+.UGTeam,
+.UGAwards,
+.UGOutreach {
+  height: 18vh;
+  width: 27vh;
+}
+
 .FFRobot {
   border-radius: 10px;
   border: 3px;
@@ -112,22 +125,6 @@ html {
   border-radius: 10px;
   box-shadow: 2px 2px 5px black;
 }
-
-/* #freightRobot {
-  color: white;
-}
-
-#freightTeam {
-  color: white;
-}
-
-#freightAward {
-  color: white;
-}
-
-#freightOutreach {
-  color: #ffffff;
-} */
 
 .FFTeam {
   border-radius: 10px;
@@ -383,7 +380,7 @@ html {
     grid-template-columns: 0.4fr 0.5fr;
   }
 
-  .FFRobot {
+  /* .FFRobot {
     width: 90px;
     height: 75px;
     border-radius: 10px;
@@ -428,12 +425,27 @@ html {
     width: 120px;
     height: 75px;
     border-radius: 10px;
+  } */
+
+  .FFRobot,
+  .FFAwards,
+  .FFOutreach,
+  .FFTeam,
+  .FFClips,
+  .UGRobot,
+  .UGTeam,
+  .UGAwards,
+  .UGOutreach {
+    height: 12vh;
+    width: 17vh;
   }
 }
 
 @media only screen and (max-width: 770px) and (orientation: landscape) {
   .subContentLeft {
     height: 20vh;
+    margin-top: 18px;
+    margin-bottom: 35px;
   }
 
   .subContentRight {
@@ -441,7 +453,7 @@ html {
   }
 
   .container {
-    height: 370vh;
+    height: 390vh;
   }
 
   .ultimate-container {
@@ -449,10 +461,10 @@ html {
   }
 
   .freight-container {
-    grid-template-columns: 0.3fr 0.5fr;
+    grid-template-columns: 0.4fr 0.5fr;
   }
 
-  .FFRobot {
+  /* .FFRobot {
     width: auto;
     height: 85px;
     border-radius: 10px;
@@ -492,5 +504,82 @@ html {
     width: auto;
     height: 85px;
     border-radius: 10px;
+  } */
+
+  .FFRobot,
+  .FFAwards,
+  .FFOutreach,
+  .FFTeam,
+  .FFClips,
+  .UGRobot,
+  .UGTeam,
+  .UGAwards,
+  .UGOutreach {
+    height: 25vh;
+    width: 45vh;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .container {
+    height: 305vh;
+  }
+
+  #content4,
+  #content3 {
+    width: 75%;
+  }
+
+  .subContentLeft {
+    height: 25vh;
+  }
+
+  .subContentRight {
+    height: 10vh;
+  }
+
+  .FFRobot,
+  .FFAwards,
+  .FFOutreach,
+  .FFTeam,
+  .FFClips,
+  .UGRobot,
+  .UGTeam,
+  .UGAwards,
+  .UGOutreach {
+    height: 22vh;
+    width: 31vh;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
+  .container {
+    height: 365vh;
+  }
+
+  #content4,
+  #content3 {
+    width: 75%;
+  }
+
+  .subContentLeft {
+    height: 30vh;
+  }
+
+  .subContentRight {
+    height: 10vh;
+  }
+
+  .FFRobot,
+  .FFAwards,
+  .FFOutreach,
+  .FFTeam,
+  .FFClips,
+  .UGRobot,
+  .UGTeam,
+  .UGAwards,
+  .UGOutreach {
+    height: 27vh;
+    width: 36vh;
   }
 }
