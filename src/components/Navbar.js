@@ -88,6 +88,12 @@ function Navbar() {
               </Link>
             </li>
 
+            <li className="nav-item">
+              <Link to="" className="nav-links" onClick={closeMobileMenu}>
+                Sponsors/Partners
+              </Link>
+            </li>
+
             <li>
               <Link
                 to="/about"

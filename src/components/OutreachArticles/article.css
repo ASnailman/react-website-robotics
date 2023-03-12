@@ -99,14 +99,37 @@
   height: 170vh;
 }
 
+#articlePPKickoff {
+  height: 265vh;
+}
+
+#articleCatFamDay {
+  height: 220vh;
+}
+
+.instaEmbedCatFamDay {
+  height: 100vh;
+  width: 50%;
+}
+
 .articlePostImageMall {
   margin-left: 50px;
   height: 40vh;
   width: 55vh;
 }
 
+.articlePostImagePLTW {
+  margin-left: 50px;
+  height: 35vh;
+  width: 50vh;
+}
+
 .engineerDayVideoLink {
   font-family: "Nexa", sans-serif;
+}
+
+.PPKickOffArticleYT {
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 770px) {
@@ -141,6 +164,26 @@
     width: 35vh;
   }
 
+  .articlePostImagePLTW {
+    height: 15vh;
+    width: 30vh;
+  }
+
+  #articlePPKickoff {
+    height: 435vh;
+  }
+
+  #articleCatFamDay {
+    height: 300vh;
+  }
+
+  .instaEmbedCatFamDay {
+    height: 100vh;
+    width: auto;
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+
   iframe {
     width: 100%;
     height: 100%;
@@ -170,6 +213,20 @@
     height: 375vh;
   }
 
+  #articlePPKickoff {
+    height: 505vh;
+  }
+
+  #articleCatFamDay {
+    height: 380vh;
+  }
+
+  .instaEmbedCatFamDay {
+    height: auto;
+    width: 60%;
+    margin-left: 3px;
+  }
+
   iframe {
     width: 70%;
     height: 70vh;
@@ -193,6 +250,14 @@
   #articleTrailblazers {
     height: 220vh;
   }
+
+  #articlePPKickoff {
+    height: 355vh;
+  }
+
+  #articleCatFamDay {
+    height: 250vh;
+  }
 }
 
 @media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
@@ -211,5 +276,13 @@
 
   #articleTrailblazers {
     height: 220vh;
+  }
+
+  #articlePPKickoff {
+    height: 355vh;
+  }
+
+  #articleCatFamDay {
+    height: 250vh;
   }
 }

@@ -31,7 +31,7 @@ function OutreachInfo() {
               Co-hosted Engineering Day at Peoria Riverfront Museum with
               Caterpillar
             </p>
-            <p className="credentials">By: Harris | 8/8/22</p>
+            <p className="credentials">By: Harris | 8/12/22</p>
           </div>
 
           <div className="articlePicture">
@@ -43,7 +43,8 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitle">
-              <Link to="/FFWorkshop" className="FFoutreachLinks">
+              {/* <Link to="/FFWorkshop" className="FFoutreachLinks"> */}
+              <Link to="" className="FFoutreachLinks">
                 2021 FTC Workshop
               </Link>
             </h2>
@@ -71,7 +72,7 @@ function OutreachInfo() {
               Exhibited previous season's robot / explained capabilities of FTC
               robots to attendees / entertained audience
             </p>
-            <p className="credentials">By: Harris | 8/8/22</p>
+            <p className="credentials">By: Harris | 8/12/22</p>
           </div>
 
           <div className="articlePicture">
@@ -91,7 +92,7 @@ function OutreachInfo() {
               Held practice and collaboration meeting with TrailBlazers 16244 in
               preparation for regional qualifier
             </p>
-            <p className="credentials">By: Harris | 8/8/22</p>
+            <p className="credentials">By: Harris | 8/12/22</p>
           </div>
 
           <div className="articlePicture">
@@ -113,7 +114,7 @@ function OutreachInfo() {
               demonstrated robot at their engineering classes to promote
               FIRST/STEM
             </p>
-            <p className="credentials">By: Harris | 8/8/22</p>
+            <p className="credentials">By: Mahee | 12/22/22</p>
           </div>
 
           <div className="articlePicture">
@@ -133,7 +134,7 @@ function OutreachInfo() {
               Hosted mini-scrimmage for teams advancing to state championship in
               our region
             </p>
-            <p className="credentials">By: Harris | 8/8/22</p>
+            <p className="credentials">By: Harris | 12/22/22</p>
           </div>
 
           <div className="articlePicture">
@@ -153,7 +154,7 @@ function OutreachInfo() {
               Masks caused goggles to fog, so we partnered with Caterpillar to
               provide 300 pairs of UVEX fog-free goggles to teams
             </p>
-            <p className="credentials">By: Harris | 8/8/22</p>
+            <p className="credentials">By: Harris | 12/22/22</p>
           </div>
 
           <div className="articlePicture">
@@ -165,7 +166,8 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitle">
-              <Link to="/FLLState" className="FFoutreachLinks">
+              {/* <Link to="/FLLState" className="FFoutreachLinks"> */}
+              <Link to="" className="FFoutreachLinks">
                 FLL State Championship Volunteering
               </Link>
             </h2>
@@ -193,7 +195,8 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitleUG" id="ronaldTitle">
-              <Link to="/RonaldHouse" className="UGoutreachLinks">
+              {/* <Link to="/RonaldHouse" className="UGoutreachLinks"> */}
+              <Link to="" className="UGoutreachLinks">
                 Co-sponsoring a Cook-in for Ronald McDonalds House
                 Patients/Families
               </Link>
@@ -215,6 +218,7 @@ function OutreachInfo() {
           <div className="article">
             <h2 className="articleTitleUG">
               <Link to="/CoffeeHouse" className="UGoutreachLinks">
+                {/* <Link to="" className="UGoutreachLinks"> */}
                 Robotic Coffee House and Fundraiser
               </Link>
             </h2>
@@ -234,7 +238,8 @@ function OutreachInfo() {
           </div>
           <div className="article">
             <h2 className="articleTitleUG">
-              <Link to="/UGWorkshop" className="UGoutreachLinks">
+              {/* <Link to="/UGWorkshop" className="UGoutreachLinks"> */}
+              <Link to="" className="UGoutreachLinks">
                 Virtual 2020 FTC Workshop
               </Link>
             </h2>

@@ -52,6 +52,21 @@ const events = [
     start: new Date(2022, 11, 10),
     end: new Date(2022, 11, 10),
   },
+  {
+    title: "Meet 3 at Quest Academy",
+    start: new Date(2022, 12, 7),
+    end: new Date(2022, 12, 7),
+  },
+  {
+    title: "Hosting FTC Teams for practice",
+    start: new Date(2022, 12, 21),
+    end: new Date(2022, 12, 21),
+  },
+  {
+    title: "League Championship at Manual Highschool",
+    start: new Date(2022, 13, 4),
+    end: new Date(2022, 13, 4),
+  },
 ];
 
 function UpcomingEvents() {

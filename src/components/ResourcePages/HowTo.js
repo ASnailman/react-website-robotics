@@ -63,9 +63,9 @@ function HowTo() {
                 >
                   FTC EasyOpenCV Tutorial + Skystone Example
                 </a>
-                <p className="howToDescription">
+                {/* <p className="howToDescription">
                   By: FTC Team Wolf Corp Robotics 12525
-                </p>
+                </p> */}
               </div>
               <br />
               <div className="howToLinkWrapper">
@@ -76,7 +76,7 @@ function HowTo() {
                   Driving Linear Slides Using Extgension and Retraction Cable
                   (Viper Slides)
                 </a>
-                <p className="howToDescription">By: goBUILDA</p>
+                {/* <p className="howToDescription">By: goBUILDA</p> */}
               </div>
               <br />
               <div className="howToLinkWrapper">
@@ -86,7 +86,7 @@ function HowTo() {
                 >
                   How to use GitHub for Version Control for FTC
                 </a>
-                <p className="howToDescription">By: Team Wizards.exe 9794</p>
+                {/* <p className="howToDescription">By: Team Wizards.exe 9794</p> */}
               </div>
               <br />
             </div>

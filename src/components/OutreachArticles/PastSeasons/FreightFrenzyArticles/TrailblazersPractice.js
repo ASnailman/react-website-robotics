@@ -12,7 +12,7 @@ function TrailblazersPractice() {
           <h1 id="aPT" className="articlePostTitle">
             Practice With The Trailblazers
           </h1>
-          <h2 className="articlePostSubHeader">Robotics and Volleyball</h2>
+          <h2 className="articlePostSubHeader">"Robotics and Volleyball"</h2>
           <div className="articleCredits">
             <span className="articleInfo">
               <p id="name">By: Harris Khoo</p>

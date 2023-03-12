@@ -15,7 +15,7 @@ function CurrentSeasonInfo() {
         <div className="NS-container">
           <div className="NSsubContentLeft" id="NSpicture">
             <img
-              src={require("../images/howLogo.jpg")}
+              src={require("../images/robot/howRobotSprint6.jpg")}
               alt="SVG logo"
               className="NSRobot"
             />
@@ -33,7 +33,7 @@ function CurrentSeasonInfo() {
 
           <div className="NSsubContentLeft" id="NSpicture">
             <img
-              src={require("../images/howLogo.jpg")}
+              src={require("../images/temporaryPPTeamMembers.png")}
               alt="SVG logo"
               className="NSTeam"
             />

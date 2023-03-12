@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import TeamMembers from "./components/pages/TeamMembers";
 import Seasons from "./components/pages/Seasons";
 import About from "./components/pages/About";
+import Partners from "./components/Partners";
 import Resources from "./components/pages/Resources";
 import PastOutreach from "./components/pages/PastOutreach";
 import CurrentOutreach from "./components/pages/CurrentOutreach";
@@ -42,6 +43,7 @@ import UpcomingEvents from "./components/UpcomingEvents";
 import CatFamDay from "./components/OutreachArticles/CurrentSeason/CatFamDay";
 import PreScrim from "./components/OutreachArticles/CurrentSeason/PreScrim";
 import FLLScrim from "./components/OutreachArticles/CurrentSeason/FLLScrim";
+import PreQualScrim from "./components/OutreachArticles/CurrentSeason/PreQualScrim";
 
 function App() {
   return (
@@ -52,6 +54,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
+          <Route path="/partners" exact element={<Partners />} />
           <Route path="/seasons" exact element={<Seasons />} />
           <Route path="/currentseason" exact element={<CurrentSeason />} />
           <Route path="/teammembers" exact element={<TeamMembers />} />
@@ -97,6 +100,7 @@ function App() {
           <Route path="/CaterpillarFamilyDay" exact element={<CatFamDay />} />
           <Route path="/PreMeetScrimPP" exact element={<PreScrim />} />
           <Route path="/FLLScrim" exact element={<FLLScrim />} />
+          <Route path="/PreQualScrim" exact element={<PreQualScrim />} />
           <Route path="/HowTo" exact element={<HowTo />} />
           <Route path="/UsefulLinks" exact element={<UsefulLinks />} />
           <Route path="/Tools" exact element={<Tools />} />

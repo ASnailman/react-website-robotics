@@ -6,7 +6,7 @@
 .PPOutreachContainer {
   display: grid;
   /* height: 320vh; */
-  height: 128vh;
+  height: 155vh;
   justify-content: center;
   /* background: rgb(239, 244, 255); */
   background-color: rgb(26, 27, 36);
@@ -33,7 +33,7 @@
   box-shadow: 1px 0px 20px rgb(13, 13, 26);
   width: 100%;
   justify-self: center;
-  height: 127vh;
+  height: 154vh;
 }
 
 #PP {
@@ -64,13 +64,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 16vh;
+  height: 17vh;
   background-color: rgb(61, 138, 206);
 }
 
 .PParticleCoverPictures {
-  height: 16vh;
-  width: 27vh;
+  height: 17vh;
+  width: 29.5vh;
   object-fit: fill;
   border-style: solid;
   border-color: rgb(59, 111, 255);
@@ -86,7 +86,7 @@
   display: flexbox;
   justify-content: center;
   align-items: center;
-  height: 16vh;
+  height: 17vh;
   border-style: solid;
   border-color: rgba(212, 222, 255, 0.692);
   border-width: 2px;
@@ -129,7 +129,7 @@
   .PPOutreachContainer {
     font-size: 20px;
     grid-template-areas: "PPcontent";
-    height: 110vh;
+    height: 137vh;
   }
 
   #PP {
@@ -139,7 +139,7 @@
   #PPcontent {
     margin: 0px;
     width: 100%;
-    height: 115vh;
+    height: 137vh;
   }
 
   .PParticle {
@@ -163,7 +163,7 @@
 
   .PParticleCoverPictures {
     height: 14vh;
-    width: 18vh;
+    width: 19vh;
   }
 
   .PParticlePicture {
@@ -173,7 +173,7 @@
 
 @media only screen and (max-width: 770px) and (orientation: landscape) {
   .PPOutreachContainer {
-    height: 200vh;
+    height: 240vh;
   }
 
   #PPcontent {
@@ -181,7 +181,7 @@
   }
 
   #PPcontent {
-    height: 204vh;
+    height: 244vh;
   }
 
   .PParticle {
@@ -215,15 +215,15 @@
 
 @media only screen and (min-device-width: 768px) and (max-width: 1024px) {
   .PPOutreachContainer {
-    height: 185vh;
+    height: 200vh;
   }
 
   #PPcontent {
-    height: 184vh;
+    height: 199vh;
   }
 
   .PParticle {
-    height: 24vh;
+    height: 22vh;
   }
 
   .PParticleTitle {
@@ -239,22 +239,26 @@
   }
 
   .PParticleCoverPictures {
-    height: 24vh;
-    width: 40vh;
+    height: 22vh;
+    width: 38vh;
   }
 
   .PParticlePicture {
-    height: 24vh;
+    height: 22vh;
+  }
+
+  #PPcontent {
+    width: 90%;
   }
 }
 
 @media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
   .PPOutreachContainer {
-    height: 185vh;
+    height: 200vh;
   }
 
   #PPcontent {
-    height: 184vh;
+    height: 199vh;
   }
 
   .PParticle {
@@ -280,5 +284,9 @@
 
   .PParticlePicture {
     height: 24vh;
+  }
+
+  #PPcontent {
+    width: 100%;
   }
 }

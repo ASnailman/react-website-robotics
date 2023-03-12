@@ -3,7 +3,8 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./HeroSection.css";
 import "../App.css";
-import LogoAnimation from "../videos/UpdatedLogoAnimation.gif";
+// import LogoAnimation from "../videos/UpdatedLogoAnimation.gif";
+import howAnimationGIF from "../videos/howAnimationGIF.gif";
 import Fader from "./Fader.js";
 
 function HeroSection() {
@@ -16,7 +17,7 @@ function HeroSection() {
         <div>
           <Fader text="THIS IS HOW"></Fader>
         </div>
-        <img src={LogoAnimation} alt="my-gif" id="logoanimation" />
+        <img src={howAnimationGIF} alt="my-gif" id="logoanimation" />
         <div className="hero-btns">
           <Button
             className="btns--team-info"
@@ -36,7 +37,7 @@ function HeroSection() {
               href="https://www.youtube.com/channel/UCe_ib1pvikITvvEfNncL6dA/featured"
               className="trailerLink"
             >
-              TEAM TRAILER
+              TEAM CHANNEL
             </a>
             <i className="far fa-play-circle" />
           </Button>
@@ -44,6 +45,32 @@ function HeroSection() {
       </div>
       <div className="heroAnnouncements" id="heroRightContainer">
         <h1 id="heroRightTitle">Announcements</h1>
+        <li id="heroAnnouncementsList">
+          <a
+            href="https://www.youtube.com/watch?v=iBURIDolVEg"
+            id="heroVideoLink"
+          >
+            Sprint 7
+          </a>{" "}
+          Video is now up on Youtube and on the{" "}
+          <Link to="/PPRobot" id="heroPageLink">
+            robot section
+          </Link>{" "}
+          of PowerPlay!
+        </li>
+        <li id="heroAnnouncementsList">
+          <a
+            href="https://www.youtube.com/watch?v=bavAWZ-h7yU"
+            id="heroVideoLink"
+          >
+            Sprint 5 & 6
+          </a>{" "}
+          Video is now up on Youtube and on the{" "}
+          <Link to="/PPRobot" id="heroPageLink">
+            robot section
+          </Link>{" "}
+          of PowerPlay!
+        </li>
         <li id="heroAnnouncementsList">
           <a
             href="https://www.youtube.com/watch?v=fLemsbU2_28&t=149s"
@@ -57,7 +84,7 @@ function HeroSection() {
           </Link>{" "}
           of PowerPlay!
         </li>
-        <li id="heroAnnouncementsList">
+        {/* <li id="heroAnnouncementsList">
           <a
             href="https://www.youtube.com/watch?v=uQsjA-X3RSc"
             id="heroVideoLink"
@@ -98,7 +125,7 @@ function HeroSection() {
             robot section
           </Link>{" "}
           of PowerPlay!
-        </li>
+        </li> */}
         {/* <li id="heroAnnouncementsList">fsdfsdfsfds</li>
         <li id="heroAnnouncementsList">fsdfsdfsfds</li>
         <li id="heroAnnouncementsList">fsdfsdfsfds</li> */}

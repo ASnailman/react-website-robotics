@@ -10,49 +10,36 @@ function MiniScrimmage() {
         <div className="articleWrapper">
           {/* <img className="singlePostImg" src="" alt="" /> */}
           <h1 id="aPT" className="articlePostTitle">
-            2021 FTC Workshop
+            Hosting an FTC Mini Scrimmage Before Finals
           </h1>
-          <h2 className="articlePostSubHeader">subtext</h2>
+          <h2 className="articlePostSubHeader">
+            "Showcasing coopertition with other teams"
+          </h2>
           <div className="articleCredits">
             <span className="articleInfo">
-              <p id="name">By: Harris Khoo</p>
+              <p id="name">By: Harris Khoo and Mahee Karim</p>
               <p id="separator">|</p>
-              <p id="date">August --, 2022</p>
+              <p id="date">December 22, 2022</p>
             </span>
           </div>
-          <div className="articlePostImage">image</div>
+          <img
+            src={require("../../../../images/outreachPhotos/ftcMiniScrimmage.jpg")}
+            alt="SVG logo"
+            className="articlePostImageMall"
+          />
           <p className="articlePostDescription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Our team hosted a mini scrimmage during the 2020-2021 Freight Frenzy
+            season before the state championships. Four teams in our region that
+            were attending the state championships participated, and this
+            allowed us to talk about different strategies and test them out. We
+            also practiced with many of these teams in case we were matched up
+            during the upcoming competition. Overall, it was a lot of fun to
+            have practice matcehs with the other teams. This was our first ever
+            FTC scrimmage in the nearby area, and it was amazing. We are
+            hopefully going to continue doing this in the future at a larger
+            scale.
             <br />
             <br />
-            twitter post
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-            <br />
-            <br />
-            youtube video
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
         {/* <div className="rightspace"></div> */}

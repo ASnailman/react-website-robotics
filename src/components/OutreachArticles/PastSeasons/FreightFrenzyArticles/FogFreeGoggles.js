@@ -10,49 +10,38 @@ function FogFreeGoggles() {
         <div className="articleWrapper">
           {/* <img className="singlePostImg" src="" alt="" /> */}
           <h1 id="aPT" className="articlePostTitle">
-            2021 FTC Workshop
+            Providing Fog Free Safety Goggles To Local Teams
           </h1>
-          <h2 className="articlePostSubHeader">subtext</h2>
+          <h2 className="articlePostSubHeader">
+            "Providing teams with a tool that ensures safety"
+          </h2>
           <div className="articleCredits">
             <span className="articleInfo">
               <p id="name">By: Harris Khoo</p>
               <p id="separator">|</p>
-              <p id="date">August --, 2022</p>
+              <p id="date">December 22, 2022</p>
             </span>
           </div>
-          <div className="articlePostImage">image</div>
+          <img
+            src={require("../../../../images/outreachPhotos/fogFreeSafetyGoggles.png")}
+            alt="SVG logo"
+            className="articlePostImageMall"
+          />
           <p className="articlePostDescription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            (Note: This was around the time of the Covid pandemic)
             <br />
             <br />
-            twitter post
+            When our team started to meet in person, we quickly identified a
+            problem with wearing safety glasses and masks at the same time. As
+            we breathed through the masks, the safety glasses fogged up quite
+            often. This made it harder to see which was hazardous. To accomodate
+            this problem, we partnered with Caterpillar Inc. to provide 300
+            pairs of UVEX fog-free safety glasses to other teams with the same
+            problem. This became a two-year effort to serve the local FTC
+            community and provide them with proper tools to work on the robot
+            safely.
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-            <br />
-            <br />
-            youtube video
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
         {/* <div className="rightspace"></div> */}

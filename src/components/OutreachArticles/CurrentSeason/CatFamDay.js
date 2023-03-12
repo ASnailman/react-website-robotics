@@ -1,58 +1,61 @@
 import React from "react";
 import "../article.css";
 import Footer from "../../Footer.js";
+import { InstagramEmbed } from "react-social-media-embed";
 
 function CatFamDay() {
   return (
     <div className="articlePost">
       <div className="articleItems">
         {/* <div className="leftspace"></div> */}
-        <div className="articleWrapper">
+        <div className="articleWrapper" id="articleCatFamDay">
           {/* <img className="singlePostImg" src="" alt="" /> */}
           <h1 id="aPT" className="articlePostTitle">
-            2021 FTC Workshop
+            Caterpillar Family Day
           </h1>
-          <h2 className="articlePostSubHeader">subtext</h2>
+          <h2 className="articlePostSubHeader">
+            "Inspiring kids with robotics"
+          </h2>
           <div className="articleCredits">
             <span className="articleInfo">
-              <p id="name">By: Harris Khoo</p>
+              <p id="name">By: Afzal</p>
               <p id="separator">|</p>
-              <p id="date">August --, 2022</p>
+              <p id="date">December 24, 2022</p>
             </span>
           </div>
-          <div className="articlePostImage">image</div>
+          <img
+            src={require("../../../images/outreachPhotos/catFamDay.jpg")}
+            alt="SVG logo"
+            className="articlePostImageMall"
+          />
           <p className="articlePostDescription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            {/* Engineering week is an incredible national holiday that we had the
+            privilege of helping over 1000 people experience at The Riverfront
+            Museum, where they host several STEM-related activities, including
+            robotics. We collaborated with three other teams to hold exhibition
+            matches, to allow the guests to drive the robots, and to answer any
+            questions related to FIRST and STEM. (THIS IS FOR ENGINEERING WEEK)*/}
+            Caterpillar invited our team to display the FIRST program to the
+            families attending Caterpillar's Family Day, which resulted in us
+            spreading STEM and FIRST to over 2000 guests. We had the opportunity
+            to present our program and work to experienced engineerings, who
+            were resoundingly impressed with how far we've come. In addition,
+            Caterpillar invited us to a second event location downtown, where we
+            displayed our training robots to over 1500 guests who stopped by.
             <br />
             <br />
-            twitter post
+            <div
+              style={{ display: "flex", justifyContent: "left" }}
+              className="instaEmbedCatFamDay"
+            >
+              <InstagramEmbed
+                url="https://www.instagram.com/p/CjRE0eCrXY6/"
+                width="100%"
+                captioned
+              />
+            </div>
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-            <br />
-            <br />
-            youtube video
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
         {/* <div className="rightspace"></div> */}

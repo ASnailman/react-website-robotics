@@ -10,49 +10,40 @@ function ProjectLeadWay() {
         <div className="articleWrapper">
           {/* <img className="singlePostImg" src="" alt="" /> */}
           <h1 id="aPT" className="articlePostTitle">
-            2021 FTC Workshop
+            Project Lead the way
           </h1>
-          <h2 className="articlePostSubHeader">subtext</h2>
+          <h2 className="articlePostSubHeader">
+            "Showcasing Our Freight Frenzy robot to inpsire others"
+          </h2>
           <div className="articleCredits">
             <span className="articleInfo">
-              <p id="name">By: Harris Khoo</p>
+              <p id="name">By: Mahee Karim</p>
               <p id="separator">|</p>
-              <p id="date">August --, 2022</p>
+              <p id="date">December 22, 2022</p>
             </span>
           </div>
-          <div className="articlePostImage">image</div>
+          <img
+            src={require("../../../../images/outreachPhotos/robotDuShowcase.jpg")}
+            alt="SVG logo"
+            className="articlePostImagePLTW"
+          />
+          <img
+            src={require("../../../../images/outreachPhotos/robotDunlapShowcase.jpg")}
+            alt="SVG logo"
+            className="articlePostImagePLTW"
+          />
           <p className="articlePostDescription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Two of our team members, Mahee and Adam, went to their respective
+            schools in order to spread the word of FIRST and FTC. We took the
+            robot, the previous years' videos, and the previous years'
+            documentation so we could present it to our engineering classes.
+            This was the first time we ever went to a school to teach people
+            about FTC, and it was a very productive event. We taught many people
+            about robotics and even inspired some students that would like to
+            try robotics. This event was amazing and we hope to do it again next
+            year.
             <br />
             <br />
-            twitter post
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-            <br />
-            <br />
-            youtube video
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
         {/* <div className="rightspace"></div> */}

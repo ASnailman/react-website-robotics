@@ -35,6 +35,14 @@ function PPRobot() {
               <Youtube embedId="fLemsbU2_28" />
               <p className="sprintTitle">Sprint 4</p>
             </div>
+            <div id="Sprint5_6">
+              <Youtube embedId="bavAWZ-h7yU" />
+              <p className="sprintTitle">Sprint 5 & 6</p>
+            </div>
+            <div id="Sprint7">
+              <Youtube embedId="iBURIDolVEg" />
+              <p className="sprintTitle">Sprint 7</p>
+            </div>
           </div>
         </div>
       </div>

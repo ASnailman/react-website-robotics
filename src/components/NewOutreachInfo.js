@@ -21,7 +21,8 @@ function NewOutreachInfo() {
           </div>
           <div className="PParticle">
             <h2 className="PParticleTitle">
-              <Link to="/StemCamp" className="PPOutreachLinks">
+              <Link to="" className="PPOutreachLinks">
+                {/* <Link to="/StemCamp" className="PPOutreachLinks"> */}
                 4G Stem Camp
               </Link>
             </h2>
@@ -29,7 +30,7 @@ function NewOutreachInfo() {
               Our teammate, Manar, teaches middle school girls
               engineering-related topics at Caterpillar
             </p>
-            <p className="PPcredentials">By: Harris | 8/14/22</p>
+            <p className="PPcredentials">By: -- | --/--/22</p>
           </div>
 
           <div className="PParticlePicture">
@@ -41,6 +42,7 @@ function NewOutreachInfo() {
           </div>
           <div className="PParticle">
             <h2 className="PParticleTitle">
+              {/* <Link to="/IgniteAndWorkshop" className="PPOutreachLinks"> */}
               <Link to="/IgniteAndWorkshop" className="PPOutreachLinks">
                 2022 FTC Workshop & Ignite Peoria Event
               </Link>
@@ -49,7 +51,7 @@ function NewOutreachInfo() {
               Hosted an FTC workshop at the Peoria Civic Center and demonstrated
               robots at Ignite Peoria 2022
             </p>
-            <p className="PPcredentials">By: Harris | 8/14/22</p>
+            <p className="PPcredentials">By: Afzal | 1/17/23</p>
           </div>
 
           <div className="PParticlePicture">
@@ -68,7 +70,7 @@ function NewOutreachInfo() {
             <p className="PParticleDescription">
               Attended the 2022-2023 Power Play Season Kickoff
             </p>
-            <p className="PPcredentials">By: Harris | 9/10/22</p>
+            <p className="PPcredentials">By: Harris | 12/24/22</p>
           </div>
 
           <div className="PParticlePicture">
@@ -85,10 +87,10 @@ function NewOutreachInfo() {
               </Link>
             </h2>
             <p className="PParticleDescription">
-              Partnered with the Trailblazers to promote FIRST during the
+              Partnered with three other teams to promote FIRST during the
               Caterpillar Family Day Event at the Tech Center in Peoria
             </p>
-            <p className="PPcredentials">By: Harris | 10/25/22</p>
+            <p className="PPcredentials">By: Harris and Afzal | 12/24/22</p>
           </div>
 
           <div className="PParticlePicture">
@@ -107,7 +109,7 @@ function NewOutreachInfo() {
             <p className="PParticleDescription">
               Hosted the Pre-Meet 1 Scrimmage at IFP
             </p>
-            <p className="PPcredentials">By: Harris | 10/25/22</p>
+            <p className="PPcredentials">By: Afzal | 12/24/22</p>
           </div>
 
           <div className="PParticlePicture">
@@ -126,7 +128,26 @@ function NewOutreachInfo() {
             <p className="PParticleDescription">
               Hosted the 2022 FLL Scrimmage at ICP
             </p>
-            <p className="PPcredentials">By: Harris | 10/25/22</p>
+            <p className="PPcredentials">By: Afzal and Harris | 12/24/22</p>
+          </div>
+
+          <div className="PParticlePicture">
+            <img
+              src={require("../images/outreachPhotos/preQualMiniScrim.JPG")}
+              alt="SVG logo"
+              className="PParticleCoverPictures"
+            />
+          </div>
+          <div className="PParticle">
+            <h2 className="PParticleTitle">
+              <Link to="/PreQualScrim" className="PPOutreachLinks">
+                Pre-Qualifier Mini Scrimmage
+              </Link>
+            </h2>
+            <p className="PParticleDescription">
+              Hosted an FTC scrimmage at IFP before regionals with many teams
+            </p>
+            <p className="PPcredentials">By: Afzal | 12/24/22</p>
           </div>
         </div>
       </div>

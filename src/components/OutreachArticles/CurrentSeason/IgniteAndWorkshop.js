@@ -10,49 +10,40 @@ function IgniteAndWorkshop() {
         <div className="articleWrapper">
           {/* <img className="singlePostImg" src="" alt="" /> */}
           <h1 id="aPT" className="articlePostTitle">
-            2021 FTC Workshop
+            2022 FTC Workshop and Ignite Peoria Event
           </h1>
-          <h2 className="articlePostSubHeader">subtext</h2>
+          <h2 className="articlePostSubHeader">
+            "Showcasing robots and teaching to promote STEM and FIRST"
+          </h2>
           <div className="articleCredits">
             <span className="articleInfo">
-              <p id="name">By: Harris Khoo</p>
+              <p id="name">By: Afzal Khan</p>
               <p id="separator">|</p>
-              <p id="date">August --, 2022</p>
+              <p id="date">February 17, 2023</p>
             </span>
           </div>
-          <div className="articlePostImage">image</div>
+          <img
+            src={require("../../../images/outreachPhotos/impactPeoria.png")}
+            alt="SVG logo"
+            className="articlePostImageMall"
+          />
           <p className="articlePostDescription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            The Ignite Peoria event at The Peoria Civic Center was easily one of
+            the most important events we participated in this year, allowing us
+            to promote STEM and FIRST to over 1000 people. During the event, our
+            manpower was split, manning the FIRST booth and instructing the
+            preseason FTC workshop. We brought our robot from last year's
+            challenge and simple demonstration robots that we created and,
+            throughout the event, allowed the guests to operate the robots and
+            manipulate game elements. The booth was manned by our experienced
+            team members, who answered the guests' questions and guided them
+            through the experience of FTC. In addition, while all this was going
+            on, our team leads were hard at work assisting the learning at the
+            FTC workshop. The workshop doubled as a way for our more experienced
+            members to help out the community and as a much-needed experience
+            for our newly onboarded members.
             <br />
             <br />
-            twitter post
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-            <br />
-            <br />
-            youtube video
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
         {/* <div className="rightspace"></div> */}

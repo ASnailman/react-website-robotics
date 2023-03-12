@@ -7,7 +7,7 @@ video {
 }
 
 #logoanimation {
-  width: 30%;
+  width: 50%;
   border: 5px;
   border-style: solid;
   border-color: rgb(255, 172, 18);
@@ -194,7 +194,7 @@ video {
   }
 
   #logoanimation {
-    width: 60%;
+    width: 80%;
   }
 
   .fade-in {
@@ -248,7 +248,7 @@ video {
   }
 
   #logoanimation {
-    width: 45%;
+    width: 65%;
   }
 
   .hero-parentContainer {
@@ -280,7 +280,7 @@ video {
   }
 
   #logoanimation {
-    width: 60%;
+    width: 70%;
   }
 
   #heroRightTitle {
@@ -291,6 +291,6 @@ video {
 
 @media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
   #logoanimation {
-    width: 45%;
+    width: 65%;
   }
 }

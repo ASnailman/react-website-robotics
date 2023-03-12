@@ -13,7 +13,7 @@ function RobotMall() {
             Robot Showcase at the Mall
           </h1>
           <h2 className="articlePostSubHeader">
-            Public Showcase of our Past Robot
+            "Public Showcase of our Past Robot"
           </h2>
           <div className="articleCredits">
             <span className="articleInfo">

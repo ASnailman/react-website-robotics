@@ -315,7 +315,7 @@
   #FFcontent,
   #UGcontent {
     margin: 0px;
-    width: 100%;
+    width: 80%;
   }
 
   #FFcontent {
@@ -346,7 +346,7 @@
   .articleCoverPicturesFF,
   .articleCoverPicturesUG {
     height: 14vh;
-    width: 30vh;
+    width: 26vh;
   }
 
   .articlePicture {
@@ -378,7 +378,7 @@
   #FFcontent,
   #UGcontent {
     margin: 0px;
-    width: 100%;
+    width: 80%;
   }
 
   #FFcontent {
@@ -413,7 +413,7 @@
   .articleCoverPicturesFF,
   .articleCoverPicturesUG {
     height: 20vh;
-    width: 40vh;
+    width: 36vh;
   }
 
   .articlePicture {

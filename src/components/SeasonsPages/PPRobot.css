@@ -21,10 +21,11 @@
   width: 100%;
   height: 50vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     "Sprint1 Sprint2"
-    "Sprint3 Sprint4";
+    "Sprint3 Sprint4"
+    "Sprint5_6 Sprint 7";
   grid-gap: 0.2rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -88,8 +89,14 @@
   padding: 0px 20px 20px 20px;
 }
 
-#Sprint5 {
-  grid-area: "Sprint5";
+#Sprint5_6 {
+  grid-area: "Sprint5_6";
+  background-color: rgb(26, 27, 36);
+  padding: 0px 20px 20px 20px;
+}
+
+#Sprint7 {
+  grid-area: "Sprint7";
   background-color: rgb(26, 27, 36);
   padding: 0px 20px 20px 20px;
 }
@@ -121,19 +128,21 @@
 
 @media only screen and (max-width: 770px) {
   .ppRobotItems {
-    height: 180vh;
+    height: 250vh;
     width: 100%;
   }
 
   .ppRobotWrapper {
     height: 50vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "Sprint1"
       "Sprint2"
       "Sprint3"
-      "Sprint4";
+      "Sprint4"
+      "Sprint5_6"
+      "Sprint7";
   }
 
   .sprintTitleYT {
@@ -151,25 +160,28 @@
 
 @media only screen and (max-width: 770px) and (orientation: landscape) {
   .ppRobotItems {
-    height: 550vh;
+    height: 650vh;
+    width: 80%;
   }
 }
 
 @media only screen and (min-device-width: 768px) and (max-width: 1024px) {
   .ppRobotItems {
-    height: 180vh;
-    width: 100%;
+    height: 320vh;
+    width: 70%;
   }
 
   .ppRobotWrapper {
     height: 50vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "Sprint1"
       "Sprint2"
       "Sprint3"
-      "Sprint4";
+      "Sprint4"
+      "Sprint5_6"
+      "Sprint7";
   }
 
   .sprintTitleYT {
@@ -187,19 +199,21 @@
 
 @media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
   .ppRobotItems {
-    height: 180vh;
-    width: 100%;
+    height: 320vh;
+    width: 70%;
   }
 
   .ppRobotWrapper {
     height: 50vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "Sprint1"
       "Sprint2"
       "Sprint3"
-      "Sprint4";
+      "Sprint4"
+      "Sprint5_6"
+      "Sprint7";
   }
 
   .sprintTitleYT {

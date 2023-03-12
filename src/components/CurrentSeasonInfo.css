@@ -103,6 +103,14 @@ html {
   height: 66px;
 }
 
+.NSRobot,
+.NSTeam,
+.NSAwards,
+.NSOutreach {
+  height: 18vh;
+  width: 25vh;
+}
+
 .NSRobot {
   border-radius: 10px;
   border: 3px;
@@ -171,7 +179,7 @@ html {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "content5";
-    height: 76vh;
+    height: 85vh;
   }
 
   #content5 {
@@ -181,7 +189,7 @@ html {
 
   .NSsubContentLeft {
     border-radius: 5px;
-    height: 10vh;
+    height: 11vh;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 18px;
@@ -209,7 +217,15 @@ html {
     grid-template-columns: 0.4fr 0.5fr;
   }
 
-  .NSRobot {
+  .NSRobot,
+  .NSTeam,
+  .NSAwards,
+  .NSOutreach {
+    height: 12vh;
+    width: 16vh;
+  }
+
+  /* .NSRobot {
     width: 90px;
     height: 75px;
     border-radius: 10px;
@@ -228,12 +244,12 @@ html {
     width: 90;
     height: 75px;
     border-radius: 10px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 770px) and (orientation: landscape) {
   .NSsubContentLeft {
-    height: 20vh;
+    height: 26vh;
   }
 
   .NSsubContentRight {
@@ -241,14 +257,22 @@ html {
   }
 
   .NScontainer {
-    height: 160vh;
+    height: 190vh;
   }
 
   .NS-container {
     grid-template-columns: 0.3fr 0.5fr;
   }
 
-  .NSRobot {
+  .NSRobot,
+  .NSTeam,
+  .NSAwards,
+  .NSOutreach {
+    height: 27vh;
+    width: 45vh;
+  }
+
+  /* .NSRobot {
     width: auto;
     height: 85px;
     border-radius: 10px;
@@ -267,7 +291,7 @@ html {
     width: auto;
     height: 85px;
     border-radius: 10px;
-  }
+  } */
 }
 
 @media only screen and (min-device-width: 768px) and (max-width: 1024px) {
