@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "./Slider.css";
@@ -30,11 +31,11 @@ export default class TeamSlider extends Component {
   render() {
     const settings = {
       dots: true,
-      className: "center",
+      className: "team-slider",
       infinite: true,
       centerPadding: "60px",
-      slidesToShow: 2,
-      fade: true,
+      slidesToShow: 1,
+      fade: false ,
       swipeToSlide: true,
       centerMode: true,
       nextArrow: <NextArrow />,
