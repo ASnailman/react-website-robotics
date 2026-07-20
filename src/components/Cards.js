@@ -1,4 +1,3 @@
-import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 //This is a comment
@@ -10,19 +9,19 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src={require("../images/past.png")}
+              src={require("../images/logos/past.png")}
               text="Take a Look at Our Past Seasons"
               label="Rover Ruckus - Freight Frenzy"
               path="/seasons"
             />
             <CardItem
-              src={require("../images/newSeason.png")}
+              src={require("../images/logos/newSeason.png")}
               text="Power Play Season 2022-2023"
               label="Current Season - Power Play"
               path="/currentseason"
             />
             <CardItem
-              src={require("../images/team2.png")}
+              src={require("../images/logos/team2.png")}
               text="Meet Our Team Members"
               label="History of Team Members"
               path="/teammembers"
@@ -31,20 +30,20 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src={require("../images/about.png")}
+              src={require("../images/logos/about.png")}
               text="Resources"
               label="How-Tos/Links/Tools/Docs"
               path="/Resources"
               id="resources"
             />
             <CardItem
-              src={require("../images/aboutUs.png")}
+              src={require("../images/logos/aboutUs.png")}
               text="About Us"
               label="Learn About Our Team!"
               path="/about"
             />
             <CardItem
-              src={require("../images/survey.png")}
+              src={require("../images/logos/survey.png")}
               text="Website Survey"
               label="Survey"
               path="/surveyform"

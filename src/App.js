@@ -1,56 +1,54 @@
-import React from "react";
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/pages/Home";
-import TeamMembers from "./components/pages/TeamMembers";
-import Seasons from "./components/pages/Seasons";
-import About from "./components/pages/About";
-import Partners from "./components/Partners";
-import Resources from "./components/pages/Resources";
-import PastOutreach from "./components/pages/PastOutreach";
-import CurrentOutreach from "./components/pages/CurrentOutreach";
-import SurveyForm from "./components/SurveyForm";
-import "slick-carousel/slick/slick.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "slick-carousel/slick/slick-theme.css";
-// import BetterNavbar from "./components/BetterNavbar";
+import "slick-carousel/slick/slick.css";
+import "./App.css";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import FFRobot from "./components/SeasonsPages/FFRobot";
-import UGRobot from "./components/SeasonsPages/UGRobot";
-import PPRobot from "./components/SeasonsPages/PPRobot";
-import PastAwards from "./components/SeasonsPages/PastAwards";
-import FFWorkshop from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/FFWorkshop";
-import FFEngineeringDay from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/FFEngineeringDay";
-import FLLState from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/FLLState";
-import FogFreeGoggles from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/FogFreeGoggles";
-import MiniScrimmage from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/MiniScrimmage";
-import ProjectLeadWay from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/ProjectLeadWay";
-import RobotMall from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/RobotMall";
-import TeamPractice from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/TeamPractice";
-import TrailblazersPractice from "./components/OutreachArticles/PastSeasons/FreightFrenzyArticles/TrailblazersPractice";
-import CoffeeHouse from "./components/OutreachArticles/PastSeasons/UltimateGoalArticles/CoffeeHouse";
-import RonaldHouse from "./components/OutreachArticles/PastSeasons/UltimateGoalArticles/RonaldHouse";
-import UGWorkshop from "./components/OutreachArticles/PastSeasons/UltimateGoalArticles/UGWorkshop";
-import HowTo from "./components/ResourcePages/HowTo";
-import UsefulLinks from "./components/ResourcePages/UsefulLinks";
-import Tools from "./components/ResourcePages/Tools";
-import Clips from "./components/ResourcePages/Clips";
-import StemCamp from "./components/OutreachArticles/CurrentSeason/StemCamp";
-import IgniteAndWorkshop from "./components/OutreachArticles/CurrentSeason/IgniteAndWorkshop";
-import PowerPlayKickoff from "./components/OutreachArticles/CurrentSeason/PowerPlayKickoff";
-import CurrentSeason from "./components/pages/CurrentSeason";
-import DocSpecs from "./components/ResourcePages/DocSpecs";
+import Partners from "./components/Partners";
+import SurveyForm from "./components/SurveyForm";
 import UpcomingEvents from "./components/UpcomingEvents";
-import CatFamDay from "./components/OutreachArticles/CurrentSeason/CatFamDay";
-import PreScrim from "./components/OutreachArticles/CurrentSeason/PreScrim";
-import FLLScrim from "./components/OutreachArticles/CurrentSeason/FLLScrim";
-import PreQualScrim from "./components/OutreachArticles/CurrentSeason/PreQualScrim";
+import About from "./pages/About";
+import CurrentOutreach from "./pages/CurrentOutreach";
+import CurrentSeason from "./pages/CurrentSeason";
+import Home from "./pages/Home";
+import CatFamDay from "./pages/OutreachArticles/CurrentSeason/CatFamDay";
+import FLLScrim from "./pages/OutreachArticles/CurrentSeason/FLLScrim";
+import IgniteAndWorkshop from "./pages/OutreachArticles/CurrentSeason/IgniteAndWorkshop";
+import PowerPlayKickoff from "./pages/OutreachArticles/CurrentSeason/PowerPlayKickoff";
+import PreQualScrim from "./pages/OutreachArticles/CurrentSeason/PreQualScrim";
+import PreScrim from "./pages/OutreachArticles/CurrentSeason/PreScrim";
+import StemCamp from "./pages/OutreachArticles/CurrentSeason/StemCamp";
+import FFEngineeringDay from "./pages/OutreachArticles/PastSeasons/FreightFrenzyArticles/FFEngineeringDay";
+import FFWorkshop from "./pages/OutreachArticles/PastSeasons/FreightFrenzyArticles/FFWorkshop";
+import FLLState from "./pages/OutreachArticles/PastSeasons/FreightFrenzyArticles/FLLState";
+import FogFreeGoggles from "./pages/OutreachArticles/PastSeasons/FreightFrenzyArticles/FogFreeGoggles";
+import MiniScrimmage from "./pages/OutreachArticles/PastSeasons/FreightFrenzyArticles/MiniScrimmage";
+import ProjectLeadWay from "./pages/OutreachArticles/PastSeasons/FreightFrenzyArticles/ProjectLeadWay";
+import RobotMall from "./pages/OutreachArticles/PastSeasons/FreightFrenzyArticles/RobotMall";
+import TeamPractice from "./pages/OutreachArticles/PastSeasons/FreightFrenzyArticles/TeamPractice";
+import TrailblazersPractice from "./pages/OutreachArticles/PastSeasons/FreightFrenzyArticles/TrailblazersPractice";
+import CoffeeHouse from "./pages/OutreachArticles/PastSeasons/UltimateGoalArticles/CoffeeHouse";
+import RonaldHouse from "./pages/OutreachArticles/PastSeasons/UltimateGoalArticles/RonaldHouse";
+import UGWorkshop from "./pages/OutreachArticles/PastSeasons/UltimateGoalArticles/UGWorkshop";
+import PastOutreach from "./pages/PastOutreach";
+import Clips from "./pages/ResourcePages/Clips";
+import DocSpecs from "./pages/ResourcePages/DocSpecs";
+import HowTo from "./pages/ResourcePages/HowTo";
+import Tools from "./pages/ResourcePages/Tools";
+import UsefulLinks from "./pages/ResourcePages/UsefulLinks";
+import Resources from "./pages/Resources";
+import Seasons from "./pages/Seasons";
+import FFRobot from "./pages/SeasonsPages/FFRobot";
+import PastAwards from "./pages/SeasonsPages/PastAwards";
+import PPRobot from "./pages/SeasonsPages/PPRobot";
+import UGRobot from "./pages/SeasonsPages/UGRobot";
+import TeamMembers from "./pages/TeamMembers";
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
-        {/* <BetterNavbar /> */}
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
@@ -108,6 +106,7 @@ function App() {
           <Route path="/Clips" exact element={<Clips />} />
           <Route path="/UpcomingEvents" exact element={<UpcomingEvents />} />
         </Routes>
+      <Footer />
       </Router>
     </>
   );

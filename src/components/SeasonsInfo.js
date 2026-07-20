@@ -1,9 +1,8 @@
-import React from "react";
-import "./SeasonsInfo.css";
 import { Link } from "react-router-dom";
-import freightFrenzyLogo3 from "../images/freightFrenzyLogo3.png";
-import ultimateGoalLogo from "../images/ultimateGoalLogo.png";
-import { Button } from "./Button";
+import freightFrenzyLogo3 from "../images/logos/freightFrenzyLogo3.png";
+import ultimateGoalLogo from "../images/logos/ultimateGoalLogo.png";
+import { Button } from "./Button/Button";
+import "./SeasonsInfo.css";
 
 function SeasonsInfo() {
   return (
@@ -43,7 +42,7 @@ function SeasonsInfo() {
         <div className="freight-container">
           <div className="subContentLeft" id="picture">
             <img
-              src={require("../images/FFRobot.jpg")}
+              src={require("../images/logos/FFRobot.jpg")}
               alt="SVG logo"
               className="FFRobot"
             />
@@ -61,7 +60,7 @@ function SeasonsInfo() {
 
           <div className="subContentLeft" id="picture">
             <img
-              src={require("../images/FFTeam.jpg")}
+              src={require("../images/logos/FFTeam.jpg")}
               alt="SVG logo"
               className="FFTeam"
             />
@@ -78,7 +77,7 @@ function SeasonsInfo() {
 
           <div className="subContentLeft" id="picture">
             <img
-              src={require("../images/FFAwards.png")}
+              src={require("../images/logos/FFAwards.png")}
               alt="SVG logo"
               className="FFAwards"
             />
@@ -95,7 +94,7 @@ function SeasonsInfo() {
 
           <div className="subContentLeft" id="picture">
             <img
-              src={require("../images/FFOutreach.jpg")}
+              src={require("../images/logos/FFOutreach.jpg")}
               alt="SVG logo"
               className="FFOutreach"
             />
@@ -112,7 +111,7 @@ function SeasonsInfo() {
 
           <div className="subContentLeft" id="picture">
             <img
-              src={require("../images/clip.png")}
+              src={require("../images/logos/clip.png")}
               alt="SVG logo"
               className="FFClips"
             />
@@ -137,7 +136,7 @@ function SeasonsInfo() {
         <div className="ultimate-container">
           <div className="subContentLeft" id="picture">
             <img
-              src={require("../images/UGRobot.jpg")}
+              src={require("../images/logos/UGRobot.jpg")}
               alt="SVG logo"
               className="UGRobot"
             />
@@ -154,7 +153,7 @@ function SeasonsInfo() {
 
           <div className="subContentLeft" id="picture">
             <img
-              src={require("../images/ugteammembers.png")}
+              src={require("../images/logos/ugteammembers.png")}
               alt="SVG logo"
               className="UGTeam"
             />
@@ -188,7 +187,7 @@ function SeasonsInfo() {
 
           <div className="subContentLeft" id="picture">
             <img
-              src={require("../images/UGOutreach.jpg")}
+              src={require("../images/logos/UGOutreach.jpg")}
               alt="SVG logo"
               className="UGOutreach"
             />

@@ -15,7 +15,6 @@
 .awards,
 .partners {
   display: flex;
-  /* height: 102vh; */
   height: 52vh;
   align-items: center;
   justify-content: center;

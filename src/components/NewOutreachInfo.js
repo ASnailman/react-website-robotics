@@ -1,7 +1,6 @@
-import React from "react";
-import "./NewOutreachInfo.css";
 import { Link } from "react-router-dom";
-import powerPlay from "../images/powerPlay.png";
+import powerPlay from "../images/logos/powerPlay.png";
+import "./NewOutreachInfo.css";
 
 function NewOutreachInfo() {
   return (

@@ -1,9 +1,8 @@
-import React from "react";
-import "./OutreachInfo.css";
 import { Link } from "react-router-dom";
+import "./OutreachInfo.css";
 // import { Button } from "./Button";
-import freightFrenzyLogo3 from "../images/freightFrenzyLogo3.png";
-import ultimateGoalLogo from "../images/ultimateGoalLogo.png";
+import freightFrenzyLogo3 from "../images/logos/freightFrenzyLogo3.png";
+import ultimateGoalLogo from "../images/logos/ultimateGoalLogo.png";
 
 function OutreachInfo() {
   return (

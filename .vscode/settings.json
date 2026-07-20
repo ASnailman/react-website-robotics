@@ -1,0 +1,10 @@
+{
+    "js/ts.tsdk.path": "node_modules\\typescript\\lib",
+    "python-envs.pythonProjects": [
+        {
+            "path": "src/images/TeamMembers/FreightFrenzy-UltimateGoal",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
+}

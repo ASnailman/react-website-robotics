@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import CardItemReusable from "./CardItemReusable";
 import "./ResourcesInfo.css";
@@ -10,7 +9,7 @@ function ResourcesInfo() {
       <div className="resWrapper">
         <Link to="/HowTo" className="resLinks" id="How-To">
           <CardItemReusable
-            src={require("../images/howTo.jpg")}
+            src={require("../images/logos/howTo.jpg")}
             text="How-Tos"
             label="Tutorials"
             path="/HowTo"
@@ -18,7 +17,7 @@ function ResourcesInfo() {
         </Link>
         <Link to="/UsefulLinks" className="resLinks" id="UsefulLinks">
           <CardItemReusable
-            src={require("../images/chains.jpg")}
+            src={require("../images/logos/chains.jpg")}
             text="Useful Links"
             label="First/How Resources"
             path="/UsefulLinks"
@@ -26,7 +25,7 @@ function ResourcesInfo() {
         </Link>
         <Link to="/Tools" className="resLinks" id="Tools">
           <CardItemReusable
-            src={require("../images/wrench.jpg")}
+            src={require("../images/logos/wrench.jpg")}
             text="Tools"
             label="Tools Made For FTC"
             path="/Tools"
@@ -34,7 +33,7 @@ function ResourcesInfo() {
         </Link>
         <Link to="/Clips" className="resLinks" id="Clips">
           <CardItemReusable
-            src={require("../images/paperClip.jpg")}
+            src={require("../images/logos/paperClip.jpg")}
             text="Clips"
             label="Run Snippets"
             path="/Clips"

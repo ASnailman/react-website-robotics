@@ -1,8 +1,7 @@
-import React from "react";
-import "./CurrentSeasonInfo.css";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
-import powerPlay from "../images/powerPlay.png";
+import powerPlay from "../images/logos/powerPlay.png";
+import { Button } from "./Button/Button.js";
+import "./CurrentSeasonInfo.css";
 
 function CurrentSeasonInfo() {
   return (
@@ -33,7 +32,7 @@ function CurrentSeasonInfo() {
 
           <div className="NSsubContentLeft" id="NSpicture">
             <img
-              src={require("../images/temporaryPPTeamMembers.png")}
+              src={require("../images/logos/temporaryPPTeamMembers.png")}
               alt="SVG logo"
               className="NSTeam"
             />
@@ -50,7 +49,7 @@ function CurrentSeasonInfo() {
 
           <div className="NSsubContentLeft" id="NSpicture">
             <img
-              src={require("../images/howLogo.jpg")}
+              src={require("../images/logos/howLogo.jpg")}
               alt="SVG logo"
               className="NSAwards"
             />

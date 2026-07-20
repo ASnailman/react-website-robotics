@@ -1,8 +1,7 @@
-import React from "react";
-import { Button } from "./Button";
 import { Link } from "react-router-dom";
-import "./HeroSection.css";
 import "../App.css";
+import { Button } from "./Button/Button";
+import "./HeroSection.css";
 // import LogoAnimation from "../videos/UpdatedLogoAnimation.gif";
 import howAnimationGIF from "../videos/howAnimationGIF.gif";
 import Fader from "./Fader.js";
