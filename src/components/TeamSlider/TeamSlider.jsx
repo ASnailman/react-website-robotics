@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import { teams } from "../../data/teams";
 import "./TeamSlider.css";
@@ -7,6 +8,8 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+
+import teamPhoto from "../../images/teamPhotos/decode/teamPhoto.jpg";
 
 
 const NextArrow = ({ className, onClick }) => (
@@ -24,6 +27,20 @@ const PrevArrow = ({ className, onClick }) => (
 
 
 export default function TeamSlider() {
+
+  const [blur, setBlur] = useState(0);
+
+  useEffect(() => {
+  const handleScroll = () => {
+    // Adjust the 40 to control how fast it blurs
+    const amount = Math.min(window.scrollY / 40, 10);
+    setBlur(amount);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const settings = {
     dots: true,
@@ -61,9 +78,20 @@ export default function TeamSlider() {
 
   return (
     <>
-    <h1 className="heading">
+    <div className="heading">
+      <img
+      className="heading-image"
+      src={teamPhoto}
+      alt=""
+      style={{
+      filter: `blur(${blur}px)`,
+      transform: `scale(${1 + blur * 0.005})`,
+      }}
+  />
+    <h1 className="heading-text">
       TEAM MEMBERS
     </h1>
+    </div>
     <div className="carousel">
       {teams.map((team) => (
         <section 

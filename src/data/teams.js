@@ -1,5 +1,35 @@
+//Decode Image Imports
+import abdurrahmanDC from "../images/teamPhotos/decode/abdurrahman.jpg";
+import ahmedDC from "../images/teamPhotos/decode/ahmed.jpg";
+import ahmedMDC from "../images/teamPhotos/decode/ahmedM.jpg";
+import aleenaDC from "../images/teamPhotos/decode/aleena.jpg";
+import amerDC from "../images/teamPhotos/decode/amer.jpg";
+import keyaanDC from "../images/teamPhotos/decode/keyaan.jpg";
+import nubaidDC from "../images/teamPhotos/decode/nubaid.jpg";
+import omarDC from "../images/teamPhotos/decode/omar.jpg";
+import owaisDC from "../images/teamPhotos/decode/owais.jpg";
+import rafinDC from "../images/teamPhotos/decode/rafin.jpg";
+import yusufDC from "../images/teamPhotos/decode/yusuf.jpg";
+import zackariaDC from "../images/teamPhotos/decode/zackaria.jpg";
+import zakeeDC from "../images/teamPhotos/decode/zakee.jpg";
 
-//centerStage Image Imports
+//Into The Deep Image Imports
+import abdurrahmanITD from "../images/teamPhotos/intoTheDeep/abdurrahman.jpg";
+import ahmedITD from "../images/teamPhotos/intoTheDeep/ahmed.jpg";
+import aleenaITD from "../images/teamPhotos/intoTheDeep/aleena.jpg";
+import amerITD from "../images/teamPhotos/intoTheDeep/amer.jpg";
+import azizITD from "../images/teamPhotos/intoTheDeep/aziz.jpg";
+import keyaanITD from "../images/teamPhotos/intoTheDeep/keyaan.jpg";
+import nubaidITD from "../images/teamPhotos/intoTheDeep/nubaid.jpg";
+import omarITD from "../images/teamPhotos/intoTheDeep/omar.jpg";
+import owaisITD from "../images/teamPhotos/intoTheDeep/owais.jpg";
+import wajeehITD from "../images/teamPhotos/intoTheDeep/wajeeh.jpg";
+import yasirITD from "../images/teamPhotos/intoTheDeep/yasir.jpg";
+import yusufITD from "../images/teamPhotos/intoTheDeep/yusuf.jpg";
+import zackariaITD from "../images/teamPhotos/intoTheDeep/zackaria.jpg";
+import zaidITD from "../images/teamPhotos/intoTheDeep/zaid.jpg";
+
+//Center Stage Image Imports
 import abdurrahmanCS from "../images/teamPhotos/centerStage/abdurrahman.jpg";
 import azizCS from "../images/teamPhotos/centerStage/aziz.jpg";
 import keyaanCS from "../images/teamPhotos/centerStage/keyaan.jpg";
@@ -24,7 +54,7 @@ import owaisPowerPlay from "../images/teamPhotos/powerPlay/Owais.JPG";
 import wajeehPowerPlay from "../images/teamPhotos/powerPlay/Wajeeh.JPG";
 import yusufPowerPlay from "../images/teamPhotos/powerPlay/Yusuf.JPG";
 
-//freight Frenzy Image imports
+//Freight Frenzy Image imports
 import adamFF from "../images/teamPhotos/freightFrenzy-UltimateGoal/adam.png";
 import afzalFF from "../images/teamPhotos/freightFrenzy-UltimateGoal/afzal.jpg";
 import harrisFF from "../images/teamPhotos/freightFrenzy-UltimateGoal/harris.png";
@@ -45,72 +75,236 @@ import omarUG from "../images/teamPhotos/freightFrenzy-UltimateGoal/omar.png";
 import sanaUG from "../images/teamPhotos/freightFrenzy-UltimateGoal/sana.png";
 
 /* Team Member Info:
-
     {
         name: "",
         image: image,
         description: ""
     },
-
 */
+
+const decodeTeam = [
+    {
+        name: "Nubaid Rahman",
+        image: nubaidDC,
+        description: "Team Manager & Portfolio Lead"
+    },
+
+    {
+        name: "Aleena Khoo",
+        image: aleenaDC,
+        description: "Media Lead"
+    },
+
+    {
+        name: "Owais Khan",
+        image: owaisDC,
+        description: "CAD Lead"
+    },
+
+    {
+        name: "Yusuf Shaik",
+        image: yusufDC,
+        description: "Mechanical & Presentation Lead"
+    },
+
+    {
+        name: "Abdurrahman Ziny",
+        image: abdurrahmanDC,
+        description: "Electrical Co-Lead"
+    },
+
+    {
+        name: "Keyaan Hossain",
+        image: keyaanDC,
+        description: "Software Co-Lead"
+    },
+
+    {
+        name: "Zackaria Maoued",
+        image: zackariaDC,
+        description: "Electrical Co-Lead & Outreach Lead"
+    },
+
+    {
+        name: "Omar Elkhouly",
+        image: omarDC,
+        description: "Mechanical Trainee"
+    },
+
+    {
+        name: "Rafin Ahmed",
+        image: rafinDC,
+        description: "CAD Trainee"
+    },
+
+    {
+        name: "Ahmed Syed",
+        image: ahmedDC,
+        description: "Software Co-Lead"
+    },
+
+    {
+        name: "Amer Aliter",
+        image: amerDC,
+        description: "Mechanical Support"
+    },
+
+    {
+        name: "Ahmed Maniar",
+        image: ahmedMDC,
+        description: "Software Trainee"
+    },
+
+    {
+        name: "Zakee Sayeed",
+        image: zakeeDC,
+        description: "Electrical Trainee"
+    }
+]
+
+const intoTheDeepTeam = [
+    {
+        name: "Wajeeh Syed",
+        image: wajeehITD,
+        description: "Electrical Lead"
+    },
+
+    {
+        name: "Nubaid Rahman",
+        image: nubaidITD,
+        description: "Software Lead"
+    },
+
+    {
+        name: "Aleena Khoo",
+        image: aleenaITD,
+        description: "Media Lead"
+    },
+
+    {
+        name: "Owais Khan",
+        image: owaisITD,
+        description: "CAD Lead"
+    },
+
+    {
+        name: "Yusuf Shaik",
+        image: yusufITD,
+        description: "Mechanical Lead"
+    },
+
+    {
+        name: "Aziz Gharsalli",
+        image: azizITD,
+        description: "Portfolio Lead"
+    },
+
+    {
+        name: "Abdurrahman Ziny",
+        image: abdurrahmanITD,
+        description: "Mechanical Pupil"
+    },
+
+    {
+        name: "Zackaria Maoued",
+        image: zackariaITD,
+        description: "Mechanical Pupil"
+    },
+
+    {
+        name: "Keyaan Hossain",
+        image: keyaanITD,
+        description: "Software Pupil"
+    },
+
+    {
+        name: "Zaid Alrefai",
+        image: zaidITD,
+        description: "Electrical Pupil"
+    },
+
+    {
+        name: "Ahmed Syed",
+        image: ahmedITD,
+        description: "Software Pupil"
+    },
+
+    {
+        name: "Amer Aliter",
+        image: amerITD,
+        description: "Mechanical Pupil"
+    },
+
+    {
+        name: "Omar Elkhouly",
+        image: omarITD,
+        description: "CAD Pupil"
+    },
+
+    {
+        name: "Yasir Mohammed",
+        image: yasirITD,
+        description: "Electrical Pupil"
+    }
+]
 
 const centerStageTeam = [
     {
-        name: "Wajeeh",
+        name: "Wajeeh Syed",
         image: wajeehCS,
         description: "Mechanical/Electrical Lead"
     },
 
     {
-        name: "Nubaid",
+        name: "Nubaid Rahman",
         image: nubaidCS,
         description: "Software Lead"
     },
 
     {
-        name: "Aleena",
+        name: "Aleena Khoo",
         image: aleenaCS,
         description: "Media Lead"
     },
     
     {
-        name: "Owais",
+        name: "Owais Khan",
         image: owaisCS,
         description: "CAD Lead"
     },
 
     {
-        name: "Abdurrahman",
+        name: "Abdurrahman Ziny",
         image: abdurrahmanCS,
         description: "ENB Lead"
     },
     
     {
-        name: "Aziz",
+        name: "Aziz Gharsalli",
         image: azizCS,
         description: "Documentation Lead"
     },
     
     {
-        name: "Yusuf",
+        name: "Yusuf Shaik",
         image: yusufCS,
         description: "Mechanical Pupil"
     },
     
     {
-        name: "Keyaan",
+        name: "Keyaan Hossain",
         image: keyaanCS,
         description: "Software Pupil"
     },
     
     {
-        name: "Zackaria",
+        name: "Zackaria Maoued",
         image: zackariaCS,
         description: "Electrical Pupil"
     },
     
     {
-        name: "Zaid",
+        name: "Zaid Alrefai",
         image: zaidCS,
         description: "Mechanical Pupil"
     },
@@ -118,67 +312,67 @@ const centerStageTeam = [
 
 const powerPlayTeam = [
     {
-        name: "Harris",
+        name: "Harris Khoo",
         image: harrisPowerPlay,
         description: "Software/Control Lead"
     },
 
     {
-        name: "Adam",
+        name: "Adam Maoued",
         image: adamPowerPlay,
         description: "Electrical Lead/Mechanical Team Member"
     },
 
     {
-        name: "Mahee",
+        name: "Mahee Kareem",
         image: maheePowerPlay,
         description: "Mechanical Lead"
     },
 
     {
-        name: "Afzal",
+        name: "Afzal Khan",
         image: afzalPowerPlay,
         description: "CAD Lead/Mechanical Team Member"
     },
     
     {
-        name: "Nubaid",
+        name: "Nubaid Rahman",
         image: nubaidPowerPlay,
         description: "Software Team Member/Electrical Parts Owner/ENB Lead"
     },
     
     {
-        name: "Wajeeh",
+        name: "Wajeeh Syed",
         image: wajeehPowerPlay,
         description: "Software Team Member/Mechanical Parts Owner"
     },
     
     {
-        name: "Aleena",
+        name: "Aleena Khoo",
         image: aleenaPowerPlay,
         description: "Media Lead"
     },
     
     {
-        name: "Owais",
+        name: "Owais Khan",
         image: owaisPowerPlay,
         description: "Junior Mechanical Team"
     },
     
     {
-        name: "Yusuf",
+        name: "Yusuf Shaik",
         image: yusufPowerPlay,
         description: "Junior Mechanical Team"
     },
     
     {
-        name: "Abdurrahman",
+        name: "Abdurrahman Ziny",
         image: abdurrahmanPowerPlay,
         description: "Junior Electrical Team"
     },
     
     {
-        name: "Aziz",
+        name: "Aziz Gharsalli",
         image: azizPowerPlay,
         description: "Junior Software Team"
     },
@@ -186,13 +380,13 @@ const powerPlayTeam = [
 
 const freightFrenzyTeam = [
     {
-        name: "Harris",
+        name: "Harris Khoo",
         image: harrisFF,
         description: "Software/Control Lead"
     },
 
     {
-        name: "Adam",
+        name: "Adam Maoued",
         image: adamFF,
         description: "Electrical Lead"
     },
@@ -204,13 +398,13 @@ const freightFrenzyTeam = [
     },
     
     {
-        name: "Afzal",
+        name: "Afzal Khan",
         image: afzalFF,
         description: "CAD Designer/Mechanical Team Member"
     },
     
     {
-        name: "Nubaid",
+        name: "Nubaid Rahman",
         image: nubaidFF,
         description: "Software Team Member/Electrical Parts Owner"
     },
@@ -222,7 +416,7 @@ const freightFrenzyTeam = [
     },
     
     {
-        name: "Wajeeh",
+        name: "Wajeeh Syed",
         image: wajeehFF,
         description: "Software Team Member/Mechanical Parts Owner"
     }
@@ -230,61 +424,77 @@ const freightFrenzyTeam = [
 
 const ultimateGoalTeam = [
     {
-        name: "Omar",
+        name: "Omar Daoud",
         image: omarUG,
         description: "Mechanical Lead"
     },
 
     {
-        name: "Ibraheem",
+        name: "Ibraheem Maoued",
         image: ibraheemUG,
         description: "Software + Control Lead/Electrical Lead"
     },
 
     {
-        name: "Sana",
+        name: "Sana Shaik",
         image: sanaUG,
         description: "Media/Outreach Lead"
     },
 
     {
-        name: "Adel",
+        name: "Adel Rahmoun",
         image: adelUG,
         description: "ENB Lead/Mechanical Team Member"
     },
 
     {
-        name: "Harris",
+        name: "Harris Khoo",
         image: harrisUG,
         description: "Software Team Member"
     },
     
     {
-        name: "Adam",
+        name: "Adam Maoued",
         image: adamUG,
         description: "Software Team Member/Electrical Team Member"
     },
         
     {
-        name: "Mahee",
+        name: "Mahee Kareem",
         image: maheeUG,
         description: "Mechanical Team Lead/Mechanical Parts Owner"
     },
             
     {
-        name: "Malak",
+        name: "Malak Daoud",
         image: malakUG,
         description: "Mechanical Team Member/Media Team Member"
     },
 
     {
-        name: "Nadine",
+        name: "Nadine Gharsalli",
         image: nadineUG,
         description: "Mechanical Team Member/Outreach Team Member"
     }
 ];
 
+/* Team info structure
+    {
+        title: "",
+        members: team   
+    },
+*/
 export const teams = [
+    {
+        title: "Decode",
+        members: decodeTeam
+    },
+
+    {
+        title: "Into The Deep",
+        members: intoTheDeepTeam   
+    },
+
     {
         title: "Center Stage",
         members: centerStageTeam

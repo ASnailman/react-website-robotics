@@ -23,6 +23,16 @@
 
 /* background-image: url('/src/images/img-1.jpg'); */
 
+.footer-wrapper {
+  width: 100%;
+}
+
+.team-footer {
+  max-width: 1400px;
+  width: calc(100% - 80px);
+  margin: 0 auto;
+}
+
 .seasons {
   background-position: center;
   background-size: cover;

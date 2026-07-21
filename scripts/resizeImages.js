@@ -2,8 +2,8 @@ const sharp = require("sharp");
 const fs = require("fs");
 const path = require("path");
 
-const inputFolder = path.join(__dirname, "../src/images/teamPhotos/centerStage-raw");
-const outputFolder = path.join(__dirname, "../src/images/teamPhotos/centerStage");
+const inputFolder = path.join(__dirname, "../src/images/teamPhotos/decode-raw");
+const outputFolder = path.join(__dirname, "../src/images/teamPhotos/decode");
 
 if (!fs.existsSync(outputFolder)) {
   fs.mkdirSync(outputFolder, { recursive: true });
