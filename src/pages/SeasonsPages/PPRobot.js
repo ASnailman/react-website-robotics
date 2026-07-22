@@ -1,5 +1,5 @@
 import "../../App.css";
-import Youtube from "../../components/Youtube";
+import Youtube from "../../components/YouTube/YouTube";
 import "./PPRobot.css";
 
 function PPRobot() {
