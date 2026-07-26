@@ -1,9 +1,7 @@
-import React from "react";
 // import { Button } from "./Button";
-import "./Footer.css";
+import { SiFirebase, SiThreedotjs } from "react-icons/si";
 import { Link } from "react-router-dom";
-import { SiFirebase } from "react-icons/si";
-import { SiThreedotjs } from "react-icons/si";
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -103,7 +101,7 @@ function Footer() {
             <p className="top">
               <small className="website-rights-copyright">Copyright</small>
               <i className="fa-solid fa-copyright" id="copyright"></i>
-              <small className="website-rights-copyright">2022 HOW 14469</small>
+              <small className="website-rights-copyright">2026 HOW 14469</small>
             </p>
             <p className="bottom">
               <small className="website-rights-created">Created with</small>

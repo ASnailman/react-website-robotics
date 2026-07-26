@@ -41,9 +41,9 @@ function Navbar() {
       <nav className="navbar" id="navbar">
         <div className="navbar-container">
           <div className="brand">
-          <div className="teamLogo">
+          <Link to="/" className="teamLogo" onClick={closeMobileMenu}>
             <img src={logo} alt="Team Logo" />
-          </div>
+          </Link>
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             HOW
             <i className="fa-solid fa-hashtag" />

@@ -13,7 +13,7 @@ INPUT_FOLDER = (
     / "src"
     / "images"
     / "teamPhotos"
-    / "decode-heic"
+    / "2025-26_decode"
 )
 
 OUTPUT_FOLDER = (
@@ -21,7 +21,7 @@ OUTPUT_FOLDER = (
     / "src"
     / "images"
     / "teamPhotos"
-    / "decode-raw"
+    / "2025-26_decode"
 )
 
 OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)

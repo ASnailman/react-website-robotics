@@ -1,3 +1,4 @@
+import { seasons } from "../../data/seasons";
 import CardItem from "../CardItem/CardItem";
 import "./Cards.css";
 //This is a comment
@@ -12,17 +13,17 @@ function Cards() {
             <CardItem
               src={require("../../images/logos/past.png")}
               text="Take a Look at Our Past Seasons"
-              label="Rover Ruckus - Freight Frenzy"
+              label={` ${seasons[seasons.length - 1].name} - ${seasons[1].name}`}
               path="/seasons"
             />
             <CardItem
               src={require("../../images/logos/newSeason.png")}
-              text="Power Play Season 2022-2023"
-              label="Current Season - Power Play"
+              text={`${seasons[0].name} Season ${seasons[0].year}`}
+              label={`Current Season: ${seasons[0].name}`}
               path="/currentseason"
             />
             <CardItem
-              src={require("../../images/logos/team2.png")}
+              src={ seasons[0].photo }
               text="Meet Our Team Members"
               label="History of Team Members"
               path="/teammembers"

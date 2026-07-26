@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Slider from "react-slick";
-import { teams } from "../../data/teams";
 import "./TeamSlider.css";
 
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -8,9 +7,8 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import teamPhoto from "../../images/teamPhotos/decode/teamPhoto.jpg";
 
-
+import { seasons } from "../../data/seasons";
 
 const NextArrow = ({ className, onClick }) => (
   <div className={className} onClick={onClick}>
@@ -18,28 +16,24 @@ const NextArrow = ({ className, onClick }) => (
   </div>
 );
 
-
 const PrevArrow = ({ className, onClick }) => (
   <div className={className} onClick={onClick}>
     <ArrowBackIosIcon style={{ color: "white" }} />
   </div>
 );
 
-
 export default function TeamSlider() {
-
   const [blur, setBlur] = useState(0);
 
   useEffect(() => {
-  const handleScroll = () => {
-    // Adjust the 40 to control how fast it blurs
-    const amount = Math.min(window.scrollY / 40, 10);
-    setBlur(amount);
-  };
+    const handleScroll = () => {
+      const amount = Math.min(window.scrollY / 40, 10);
+      setBlur(amount);
+    };
 
-  window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-  return () => window.removeEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const settings = {
@@ -64,9 +58,7 @@ export default function TeamSlider() {
           padding: "10px",
         }}
       >
-        <ul style={{ margin: "0px" }}>
-          {dots}
-        </ul>
+        <ul style={{ margin: "0px" }}>{dots}</ul>
       </div>
     ),
 
@@ -75,79 +67,54 @@ export default function TeamSlider() {
     },
   };
 
-
   return (
     <>
-    <div className="heading">
-      <img
-      className="heading-image"
-      src={teamPhoto}
-      alt=""
-      style={{
-      filter: `blur(${blur}px)`,
-      transform: `scale(${1 + blur * 0.005})`,
-      }}
-  />
-    <h1 className="heading-text">
-      TEAM MEMBERS
-    </h1>
-    </div>
-    <div className="carousel">
-      {teams.map((team) => (
-        <section 
-          key={team.title}
-        >
+      <div className="heading">
+        {seasons[0].name && (
+          <img
+            className="heading-image"
+            src={seasons[0].photo}
+            alt={`${seasons[0].name} team`}
+            style={{
+              filter: `blur(${blur}px)`,
+              transform: `scale(${1 + blur * 0.005})`,
+            }}
+          />
+        )}
 
-          <h2 className="titlePP">
-            {team.title}
-          </h2>
+        <h1 className="heading-text">TEAM MEMBERS</h1>
+      </div>
 
+      <div className="carousel">
+        {seasons.map((season) => (
+          <section key={season.name}>
+            <h2 className="titlePP">
+              {season.name} ({season.year})
+            </h2>
 
-          <Slider {...settings}>
+            <Slider {...settings}>
+              {season.team.map((member) => (
+                <div className="box-container" key={member.name}>
+                  <div className="picture-container">
+                    <h3>{member.name}</h3>
 
-            {team.members.map((member) => (
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="picture"
+                    />
+                  </div>
 
-              <div 
-                className="box-container"
-                key={member.name}
-              >
-
-                <div className="picture-container">
-
-                  <h3>
-                    {member.name}
-                  </h3>
-
-
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="picture"
-                  />
-
+                  <div className="description-container">
+                    <p className="sliderDescription">{member.role}</p>
+                  </div>
                 </div>
+              ))}
+            </Slider>
 
-
-                <div className="description-container">
-
-                  <p className="sliderDescription">
-                    {member.description}
-                  </p>
-
-                </div>
-
-              </div>
-
-            ))}
-
-          </Slider>
-
-
-          {team !== teams[teams.length - 1] && <hr />}
-
-        </section>
-        
-      ))}
+            {season !== seasons[seasons.length - 1] && <hr />}
+          </section>
+        ))}
       </div>
     </>
   );

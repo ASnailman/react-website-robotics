@@ -1,0 +1,11 @@
+export { default as abdurrahman } from "./Abdurahman.JPG";
+export { default as adam } from "./Adam.JPG";
+export { default as afzal } from "./Afzal.JPG";
+export { default as aleena } from "./Aleena.JPG";
+export { default as aziz } from "./Aziz.JPG";
+export { default as harris } from "./Harris.JPG";
+export { default as mahee } from "./Mahee.JPG";
+export { default as nubaid } from "./Nubaid.JPG";
+export { default as owais } from "./Owais.JPG";
+export { default as wajeeh } from "./Wajeeh.JPG";
+export { default as yusuf } from "./Yusuf.JPG";
