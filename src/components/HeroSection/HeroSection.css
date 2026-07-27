@@ -8,9 +8,7 @@ video {
 
 #logoanimation {
   width: 50%;
-  border: 5px;
-  border-style: solid;
-  border-color: rgb(255, 172, 18);
+  border: 5px solid rgb(255, 172, 18);
   border-radius: 10px;
   margin-top: 25px;
 }
@@ -18,7 +16,7 @@ video {
 .fade-in {
   opacity: 0.99;
   transition: opacity 2s ease;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 95px;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -28,7 +26,7 @@ video {
 .fade-out {
   opacity: 0;
   transition: opacity 2s ease;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 95px;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -38,22 +36,23 @@ video {
 .fade-none {
   opacity: 1;
   transition: opacity 2s ease;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 95px;
-
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
 
 .hero-parentContainer {
   display: grid;
   grid-template-columns: 1fr 0.6fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "heroLeftContainer heroRightContainer";
+  grid-template-areas:
+    "heroLeftContainer heroRightContainer";
 }
 
+
 .hero-container {
-  /* background: url('/src/images/img-home.jpg') center center/cover no-repeat; */
   background-color: rgb(30, 31, 41);
   height: 102.5vh;
   width: 100%;
@@ -61,63 +60,64 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* box-shadow: inset 0 0 0 1000px rgba(94, 94, 94, 0.2); */
   object-fit: contain;
 }
+
 
 #heroLeftContainer {
   grid-area: heroLeftContainer;
 }
 
+
 .hero-container > h1 {
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 100px;
   margin-top: -100px;
 }
 
+
 .hero-container > p {
   margin-top: 8px;
-  color: #fff;
+  color: white;
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
 
 .hero-btns {
   margin-top: 32px;
   display: flex;
 }
 
+
 .hero-btns .btn {
   margin: 6px;
 }
+
 
 .fa-play-circle {
   margin-left: 4px;
 }
 
+
+/* Announcement box container */
 .heroAnnouncements {
   background-color: rgb(25, 28, 36);
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.17fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
-  grid-template-areas:
-    "heroRightTitle"
-    "heroAnnouncementsList";
 }
+
 
 #heroRightContainer {
   grid-area: heroRightContainer;
-  border: 3px;
-  border-color: rgb(255, 193, 23);
-  border-style: solid;
+  border: 3px solid rgb(255, 193, 23);
   margin: 15px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
+
 #heroRightTitle {
-  color: #fff;
+  color: white;
   font-size: 60px;
   text-align: center;
   margin-top: 50px;
@@ -125,54 +125,15 @@ video {
     "Lucida Sans", Arial, sans-serif;
 }
 
-#heroAnnouncementsList {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  /* list-style: none; */
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-#heroVideoLink {
-  color: rgb(255, 162, 41);
-  text-decoration: underline;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-#heroVideoLink:hover {
-  color: rgb(255, 193, 111);
-  transition: ease-in-out 300ms;
-}
-
-#heroPageLink {
-  color: rgba(41, 194, 255, 0.945);
-  text-decoration: underline;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-#heroPageLink:hover {
-  color: rgba(125, 218, 255, 0.945);
-  transition: ease-in-out 300ms;
-}
-
-#spanMeet1 {
-  color: aquamarine;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 20px;
-  text-decoration: underline;
-}
 
 .trailerLink {
   color: white;
 }
 
+
+/* Tablet */
 @media screen and (max-width: 960px) {
+
   .hero-parentContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -182,106 +143,110 @@ video {
       "heroRightContainer";
   }
 
+
   #heroRightTitle {
-    color: #fff;
     font-size: 40px;
     margin-bottom: 20px;
   }
+
 
   .hero-container > h1 {
     font-size: 70px;
     margin-top: -150px;
   }
 
+
   #logoanimation {
     width: 80%;
   }
 
-  .fade-in {
-    font-size: 55px;
-  }
 
-  .fade-out {
-    font-size: 55px;
-  }
-
+  .fade-in,
+  .fade-out,
   .fade-none {
     font-size: 55px;
   }
 
+
   .hero-btns {
     display: block;
   }
-
-  #spanMeet1 {
-    font-size: 17px;
-  }
 }
 
+
+/* Mobile */
 @media screen and (max-width: 768px) {
+
   .hero-container > h1 {
     font-size: 50px;
     margin-top: -100px;
   }
 
+
   .hero-container > p {
     font-size: 30px;
   }
+
 
   .btn-mobile {
     display: block;
     text-decoration: none;
   }
 
+
   .btn {
     width: 100%;
   }
+
 
   #logoanimation {
     margin-left: 10px;
   }
 }
 
+
+/* Mobile landscape */
 @media only screen and (max-width: 768px) and (orientation: landscape) {
+
   .hero-container {
     height: 160vh;
   }
+
 
   #logoanimation {
     width: 65%;
   }
 
+
   .hero-parentContainer {
-    display: grid;
     grid-template-columns: 1fr 0.6fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "heroLeftContainer heroRightContainer";
+    grid-template-areas:
+      "heroLeftContainer heroRightContainer";
   }
+
 
   #heroRightTitle {
-    color: #fff;
     font-size: 25px;
-
     margin-top: 50px;
-  }
-
-  #heroAnnouncementsList {
-    font-size: 15px;
   }
 }
 
+
+/* iPad/tablet */
 @media only screen and (min-device-width: 768px) and (max-width: 1024px) {
-  .fade-in {
+
+  .fade-in,
+  .fade-out,
+  .fade-none {
     font-size: 75px;
   }
 
-  .fade-out {
-    font-size: 75px;
-  }
 
   #logoanimation {
     width: 70%;
   }
+
 
   #heroRightTitle {
     font-size: 60px;
@@ -289,7 +254,10 @@ video {
   }
 }
 
+
+/* Large screens */
 @media only screen and (min-device-width: 1200px) and (max-width: 1600px) {
+
   #logoanimation {
     width: 65%;
   }

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "../../App.css";
-import Footer from "../Footer/Footer";
 import "./SurveyForm.css";
 
 export default function SurveyForm() {
@@ -151,7 +150,6 @@ export default function SurveyForm() {
           </button>
         </form>
       </div>
-      <Footer />
     </div>
   );
 }
